@@ -1,0 +1,87 @@
+[
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "Take a drink for every L, A, C, M, or U in your name"
+  },
+  {
+    "type": "game",
+    "title": "Game",
+    "prompt": "Categories: The category is Alcohol brands, first to run out of ideas or thinks too long takes 3 drinks"
+  },
+  {
+    "type": "jury",
+    "title": "Convince the Jury",
+    "prompt": "You and the person on your right are the ones on trial, everyone else is the jury. Describe the worst thing you've done while blackout and couldn't remember. The jury will vote on whose was worse, loser drinks 3 times"
+  },
+  {
+    "type": "virus",
+    "title": "Virus",
+    "prompt": "Every time one of your neighbors drinks, you drink"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "Take a drink for every vowel in the last message you received on your phone"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "If you're wearing any blue clothing, take 2 drinks"
+  },
+  {
+    "type": "game",
+    "title": "Game",
+    "prompt": "Categories: The category is Superhero names. First to run out of ideas or thinks too long takes 3 drinks"
+  },
+  {
+    "type": "vote",
+    "title": "Vote",
+    "prompt": "Would you rather: Would you rather $10,000 right now or flip a coin for $1 million. Everyone vote at the same itme, losing group dirnks 2 times"
+  },
+  {
+    "type": "vote",
+    "title": "Vote",
+    "prompt": "You have a button, and everytime you press it you will receive $1 million, but someone on Earth at random will die, are you pressing it. Everyone vote at the same itme, losing group dirnks 2 times"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "Everyone who is familiar with the concept of Dogwarts takes 2 drinks, or give out 4 you are willing to explain it and say your number to those who don't know"
+  },
+  {
+    "type": "vote",
+    "title": "Vote",
+    "prompt": "Would you rather have unlimited money but no love, or unlimited love but no money? Everyone votes at the same time, losing group drinks 2 times"
+  },
+  {
+    "type": "vote",
+    "title": "Vote",
+    "prompt": "Would you rather fight one horse-sized duck or one hundred duck-sized horses? Everyone votes at the same time, losing group drinks 2 times"
+  },
+  {
+    "type": "virus",
+    "title": "Virus",
+    "prompt": "If you make eye contact with someone, both of you drink"
+  },
+  {
+    "type": "jury",
+    "title": "Convince the Jury",
+    "prompt": "Describe the last dream you remember. The jury votes on the weirdest dream. The owner of that dream drinks 3 times"
+  },
+  {
+    "type": "vote",
+    "title": "Vote",
+    "prompt": "Would you rather be constantly sweating or constantly shivering? Everyone votes at the same time, losing group drinks 2 times"
+  },
+  {
+    "type": "vote",
+    "title": "Vote",
+    "prompt": "Would you rather have a rewind button or a pause button for life? Everyone votes at the same time, losing group drinks 2 times"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "If you've been out of your home country, take 2 drinks"
+  }
+]
