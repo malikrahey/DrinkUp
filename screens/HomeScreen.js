@@ -3,6 +3,7 @@ import React, { useLayoutEffect } from 'react'
 import { SafeAreaView } from 'react-native'
 import styles from '../styles'
 import { TouchableOpacity } from 'react-native'
+import * as ScreenOrientation from 'expo-screen-orientation';
 
 const HomeScreen = ({navigation}) => {
 
@@ -10,6 +11,8 @@ const HomeScreen = ({navigation}) => {
     navigation.setOptions({
       headerShown: false
     })
+ 
+    ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
   }, [])
 
   return (
