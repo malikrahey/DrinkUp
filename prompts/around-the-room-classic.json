@@ -253,5 +253,66 @@
     "type": "game",
     "title": "Game",
     "prompt": "Without naming the title, describe the plot of your favorite book in one sentence. Others guess. If no one gets it, you drink"
+  },
+  {
+    "type": "vote",
+    "title": "Vote",
+    "prompt": "Who's most likely to join a nudist colony? Chosen one confesses their thoughts on the idea or drinks"
+  },
+  {
+    "type": "game",
+    "title": "Would You Rather",
+    "prompt": "Would you rather be constantly itchy or constantly sticky for the rest of your life? Choose or drink"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "Describe your first kiss in three words. Drink if you'd rather not"
+  },
+  {
+    "type": "game",
+    "title": "Would You Rather",
+    "prompt": "Would you rather send a risqué text to your boss or your ex? Drink if neither appeals"
+  },
+  {
+    "type": "game",
+    "title": "Would You Rather",
+    "prompt": "Would you rather be able to read minds but can’t turn it off or have your mind open for all to see? Drink if you'd rather stay out of minds altogether"
+  },
+  {
+    "type": "game",
+    "title": "Would You Rather",
+    "prompt": "Would you rather be able to talk with animals or speak every human language fluently? Choose or drink"
+  },
+  {
+    "type": "game",
+    "title": "Would You Rather",
+    "prompt": "Would you rather walk in on your parents or have them walk in on you? Vote at the same time losers drink 3 times"
+  },
+  {
+    "type": "game",
+    "title": "Game",
+    "prompt": "Describe a movie plot badly. First person to guess correctly gives out 2 drinks."
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "Name a country you'd love to visit but haven't been to yet. Drink if you've been everywhere you've dreamt of."
+  },
+  {
+    "type": "virus",
+    "title": "Virus",
+    "prompt": "Every time someone says the word 'drink', they and the person next to them drink."
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "Anyone who has ever broken a bone, take a drink."
+  },
+  {
+    "type": "virus",
+    "title": "Virus",
+    "prompt": "Every time someone laughs, they and the person who made them laugh drink."
   }
+
 ]

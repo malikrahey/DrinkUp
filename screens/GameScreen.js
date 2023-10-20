@@ -87,7 +87,7 @@ const GameScreen = ({navigation}) => {
           {currentPrompt?.type !== 'general' ? (
            <Text className='text-4xl font-bold text-center'>{currentPrompt?.title}</Text> 
           ) : null}
-          <Text className="text-xl m-4">
+          <Text className="text-2xl m-4">
             {currentPrompt?.prompt}
           </Text>
         </TouchableOpacity>
