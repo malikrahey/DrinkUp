@@ -83,5 +83,175 @@
     "type": "general",
     "title": "",
     "prompt": "If you've been out of your home country, take 2 drinks"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "If you've ever been caught 'in the act', take 3 drinks"
+  },
+  {
+    "type": "vote",
+    "title": "Vote",
+    "prompt": "Who in the group is most likely to have a secret tattoo? Person with the most votes drinks 2 times"
+  },
+  {
+    "type": "vote",
+    "title": "Vote",
+    "prompt": "Would you rather have a great love life but poor financials or be super rich but have a terrible love life? Everyone votes at the same time, losing group drinks 2 times"
+  },
+  {
+    "type": "virus",
+    "title": "Virus",
+    "prompt": "Every time someone mentions an ex, they take 2 drinks"
+  },
+  {
+    "type": "jury",
+    "title": "Convince the Jury",
+    "prompt": "Describe your worst drunken purchase. Jury votes on the most regrettable buy. Loser drinks 2 times"
+  },
+  {
+    "type": "jury",
+    "title": "Convince the Jury",
+    "prompt": "Confess the wildest thing you've done after a few drinks. Jury votes on the craziest story. Owner of that story drinks 2 times"
+  },
+  {
+    "type": "game",
+    "title": "Game",
+    "prompt": "Name the kinkiest place you've ever gotten intimate. Most unique location, as decided by the group, gets to choose someone to drink 3 times"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "If you've ever had a one-night stand, take a drink"
+  },
+  {
+    "type": "vote",
+    "title": "Vote",
+    "prompt": "Who's more likely to get kicked out of a bar? The person with the most votes drinks 3 times"
+  },
+  {
+    "type": "virus",
+    "title": "Virus",
+    "prompt": "When someone compliments someone else, both the giver and receiver drink"
+  },
+  {
+    "type": "game",
+    "title": "Game",
+    "prompt": "Truth or Dare: Person to your right chooses 'Truth' or 'Dare'. If they refuse to answer or do the dare, they take 3 drinks"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "For every person you've kissed in this room, take a drink"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "If you've ever done the 'walk of shame', take 2 drinks"
+  },
+  {
+    "type": "virus",
+    "title": "Virus",
+    "prompt": "Every time you say 'drink', take 2 drinks"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "For every tattoo you have, take a drink"
+  },
+  {
+    "type": "vote",
+    "title": "Vote",
+    "prompt": "Would you rather always smell like garlic or onions? Everyone votes at the same time, losing group drinks 2 times"
+  },
+  {
+    "type": "game",
+    "title": "Game",
+    "prompt": "Impersonate another player for 30 seconds. The impersonated person gets to decide if it was accurate. If not, impersonator drinks 2 times"
+  },
+  {
+    "type": "jury",
+    "title": "Convince the Jury",
+    "prompt": "Reveal a guilty pleasure song you can't help but dance to. If anyone else in the group loves it too, give out 3 drinks. If no one does, you drink 3 times"
+  },
+  {
+    "type": "jury",
+    "title": "Convince the Jury",
+    "prompt": "Share the name of the celebrity you'd most want to have a wild night out with. Everyone votes on the most unexpected choice. Winner (or loser, depending on perspective) drinks 2 times"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "If you've ever ghosted someone, take 2 drinks"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "Who in this room would you least want to see naked? Drink if that's too mean to answer"
+  },
+  {
+    "type": "vote",
+    "title": "Vote",
+    "prompt": "Who's most likely to have a secret stash of adult toys? The chosen one can admit, deny, or drink"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "What's the most people you've dated at once? Drink if monogamy is your strong suit"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "What's the most you've ever spent on a date? Drink if you're a cheap date"
+  },
+  {
+    "type": "vote",
+    "title": "Vote",
+    "prompt": "Who would be the worst at keeping secrets? The chosen person can spill a secret or drink"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "Name the last person you fantasized about. Drink if you don't want to say"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "What's something you did that you hope your parents never find out about? Drink if it's too scandalous to reveal"
+  },
+  {
+    "type": "vote",
+    "title": "Vote",
+    "prompt": "Who's most likely to get lost in their hometown? Everyone points. Chosen one shares a funny lost story or drinks"
+  },
+  {
+    "type": "game",
+    "title": "Game",
+    "prompt": "Start humming a song and see who can guess it first. If no one guesses in 30 seconds, you drink"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "Name the last movie that made you cry. Drink if you're too tough to admit it"
+  },
+  {
+    "type": "vote",
+    "title": "Vote",
+    "prompt": "Who in this room would survive the longest on a deserted island? Everyone points. Person with the least fingers pointed at them drinks"
+  },
+  {
+    "type": "general",
+    "title": "",
+    "prompt": "Name a show you've binge-watched in one sitting. Drink if it was more than 10 episodes"
+  },
+  {
+    "type": "vote",
+    "title": "Vote",
+    "prompt": "Who has the best dance moves in the room? Chosen one either shows off their moves or drinks"
+  },
+  {
+    "type": "game",
+    "title": "Game",
+    "prompt": "Without naming the title, describe the plot of your favorite book in one sentence. Others guess. If no one gets it, you drink"
   }
 ]

@@ -58,6 +58,8 @@ const GameScreen = ({navigation}) => {
     setCurrentPrompt(prompts[nextIndex])
   }
 
+  console.log(prompts.length)
+
 
   switch (currentPrompt?.type) {
     case "game":
@@ -65,6 +67,12 @@ const GameScreen = ({navigation}) => {
       break;
     case "jury":
       bgColor = 'bg-purple-400';
+      break;
+    case "vote":
+      bgColor = 'bg-blue-400'
+      break;
+    case "virus":
+      bgColor = 'bg-yellow-400'
       break;
   }
 
