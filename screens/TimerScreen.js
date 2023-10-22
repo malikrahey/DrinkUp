@@ -26,28 +26,28 @@ const TimerScreen = ({ navigation }) => {
         console.log('done loading');
     }, [])
 
-    const handleBack = () => {
-          navigation.navigate("Home")
-          ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
-          return;
-      }
-
     return (
 
         <SafeAreaView className="bg-neutral-100" style={styles.AndroidSafeArea}>
-
             <View className="flex items-center justify-evenly h-screen">
-
                 <View className="space-y-2">
 
-                    <TouchableOpacity disabled className="w-64 h-16 justify-center border rounded-lg bg-white">
+                    <TouchableOpacity onPress={() => setState({view: 1})} className="w-64 h-16 justify-center border rounded-lg bg-white">
                         <Text className="text-center font-bold">Centurion Challenge</Text>
                     </TouchableOpacity>
-                    <TouchableOpacity disabled className="w-64 h-16 justify-center border rounded-lg bg-white">
+                    <TouchableOpacity onPress={() => setState({view: 2})} className="w-64 h-16 justify-center border rounded-lg bg-white">
                         <Text className="text-center font-bold">Power Hour Challenge</Text>
                     </TouchableOpacity>
 
                 </View>
+
+                {this.state.view === 1 ? <View1>
+
+                </View1> : ''}
+
+                {this.state.view === 2 ? <View2>
+
+                </View2> : ''}
 
             </View>
         </SafeAreaView>
