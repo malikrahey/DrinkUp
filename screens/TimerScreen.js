@@ -37,18 +37,9 @@ const TimerScreen = ({ navigation }) => {
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => setState({view: 2})} className="w-64 h-16 justify-center border rounded-lg bg-white">
                         <Text className="text-center font-bold">Power Hour Challenge</Text>
+                        
                     </TouchableOpacity>
-
                 </View>
-
-                {this.state.view === 1 ? <View1>
-
-                </View1> : ''}
-
-                {this.state.view === 2 ? <View2>
-
-                </View2> : ''}
-
             </View>
         </SafeAreaView>
     )
