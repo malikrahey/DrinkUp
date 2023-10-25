@@ -77,7 +77,7 @@ const TimerScreen = ({ navigation }) => {
     
     return (
         <View className="items-center justify-evenly h-screen">
-            <Text style={{ fontSize: '50em' }} className="text-center font-bold">Round {round}</Text>
+            <Text style={{ fontSize: '50em' }} className="text-center font-bold">Round {"\n"} {round}</Text>
         </View>
         );
     };
@@ -85,23 +85,22 @@ const TimerScreen = ({ navigation }) => {
     return (
 
         <SafeAreaView className="bg-neutral-100" style={styles.AndroidSafeArea}>
-            <View className="items-center justify-evenly h-screen">
-            <Text style={{ fontSize: '50em' }} className="text-center font-bold">Round {round}</Text>
+            <View className="items-center py-20 h-screen">
             <CountdownCircleTimer
                         isPlaying
                         duration={3600}
                         size={250}
                         isGrowing={true}
-                        colors={["#004777", "#F7B801", "#A30000", "#A30000"]}
-                        colorsTime={[60, 30, 15, 0]}
+                        colors={["#A30000", "004777", "F7B801", "A30000"]}
+                        colorsTime={[3600, 2700, 1200, 300]}
                         onComplete={() => [false, 1000]}
                 >
                         {renderTime2}
-                    </CountdownCircleTimer>
-
+                </CountdownCircleTimer>
+                <Text className="text-center font-bold font-xl"> {"\n"} </Text>
                 <CountdownCircleTimer
                         isPlaying
-                        duration={3}
+                        duration={60}
                         size={250}
                         colors={["#004777", "#F7B801", "#A30000", "#A30000"]}
                         colorsTime={[60, 30, 15, 0]}
