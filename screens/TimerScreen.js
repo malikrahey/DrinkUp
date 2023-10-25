@@ -8,6 +8,8 @@ import * as ScreenOrientation from 'expo-screen-orientation';
 const TimerScreen = ({ navigation }) => {
 
     const [loading, setLoading] = useState(true);
+    const [show, toggleShow] = useState(true);
+    const [screen, setScreen] = useState(0);
 
     let bgColor = 'bg-white';
     let textColor = '';
@@ -30,16 +32,38 @@ const TimerScreen = ({ navigation }) => {
 
         <SafeAreaView className="bg-neutral-100" style={styles.AndroidSafeArea}>
             <View className="flex items-center justify-evenly h-screen">
-                <View className="space-y-2">
+                {show && <View className="space-y-2">
 
-                    <TouchableOpacity onPress={() => setState({view: 1})} className="w-64 h-16 justify-center border rounded-lg bg-white">
-                        <Text className="text-center font-bold">Centurion Challenge</Text>
+                    <TouchableOpacity onPress = {() => setScreen(1)} onPressIn = {() => toggleShow(!show)} className="w-64 h-16 justify-center rounded-lg bg-white">
+                        <Text className="text-center font-bold text-xl">Centurion Challenge</Text>
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={() => setState({view: 2})} className="w-64 h-16 justify-center border rounded-lg bg-white">
-                        <Text className="text-center font-bold">Power Hour Challenge</Text>
-                        
+
+                    <TouchableOpacity onPress={() => setScreen(2)} onPressIn = {() => toggleShow(show)} className="w-64 h-16 justify-center rounded-lg bg-white">
+                        <Text className="text-center font-bold text-xl">Power Hour Challenge</Text>
                     </TouchableOpacity>
+
+                </View>}
+
+                <View>
+
+                    {screen == "1" ? (
+                        <View>
+                            <Text className="text-center font-bold text-xl">Centurion Challenge</Text>
+                        </View>
+
+                        ) : screen == "2" ? (
+                        <View>
+                            <Text className="text-center font-bold text-xl">Power Hour Challenge</Text>
+                        </View>
+
+                        ) : (
+                        <View>
+                    
+                        </View>
+                        )}
+
                 </View>
+
             </View>
         </SafeAreaView>
     )

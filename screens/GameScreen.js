@@ -20,7 +20,6 @@ const randomizeIndexList = (maxIndex) => {
 
 const GameScreen = ({navigation}) => {
 
-  
   const [currentPrompt, setCurrentPrompt] = useState(prompts[0]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [indexList, setIndexList] = useState([]);
