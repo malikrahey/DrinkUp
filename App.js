@@ -16,7 +16,7 @@ export default function App() {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Game" component={GameScreen} />
-        <Stack.Screen name="Timer" component={TimerScreen} />
+        <Stack.Screen name="Power Hour" component={TimerScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
