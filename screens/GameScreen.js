@@ -49,16 +49,13 @@ const GameScreen = ({navigation}) => {
   const handleNext = () => {
     const nextIndex = currentIndex+1;
     if (nextIndex >= prompts.length) {
+      ScreenOrientation.unlockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
       navigation.navigate("Home")
-      ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
       return;
     }
     setCurrentIndex(nextIndex);
     setCurrentPrompt(prompts[nextIndex])
   }
-
-  console.log(prompts.length)
-
 
   switch (currentPrompt?.type) {
     case "game":

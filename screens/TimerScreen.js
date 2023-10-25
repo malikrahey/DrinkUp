@@ -4,12 +4,15 @@ import { SafeAreaView } from 'react-native';
 import styles from '../styles';
 import { TouchableOpacity } from 'react-native';
 import * as ScreenOrientation from 'expo-screen-orientation';
+import { CountdownCircleTimer } from 'react-native-countdown-circle-timer';
+import { Audio } from 'expo-av';
+import { render } from 'react-dom/cjs/react-dom.production.min';
 
 const TimerScreen = ({ navigation }) => {
 
     const [loading, setLoading] = useState(true);
-    const [show, toggleShow] = useState(true);
-    const [screen, setScreen] = useState(0);
+    const [sound, setSound] = useState();
+    const [round, setRound] = useState(1);
 
     let bgColor = 'bg-white';
     let textColor = '';
@@ -23,47 +26,94 @@ const TimerScreen = ({ navigation }) => {
     }, [])
 
     useEffect(() => {
-
         setLoading(false);
+        setRound(round)
         console.log('done loading');
-    }, [])
+        return sound
+          ? () => {
+              console.log('Unloading Sound');
+              sound.unloadAsync();
+            }
+          : undefined;
+      }, [sound]);
+
+      async function playSound() {  
+        console.log('Loading Sound');
+        const { sound } = await Audio.Sound.createAsync( require('../assets/timerNotification.mp3')
+        );
+        setSound(sound);
+        if (Platform.OS === "ios") {
+            await Audio.setAudioModeAsync({
+              playsInSilentModeIOS: true,
+            })};
+
+        console.log('Playing Sound');
+        await sound.playAsync();
+    }
+    
+    const enableAudio = async () => {
+        await setAudioModeAsync({
+        playsInSilentModeIOS: true,
+        staysActiveInBackground: false,
+        interruptionModeAndroid: INTERRUPTION_MODE_ANDROID_DO_NOT_MIX,
+        shouldDuckAndroid: false,})}
+
+    const renderTime = ({ remainingTime }) => {
+        if (remainingTime === 0) {
+          return <Text style={{ fontSize: '80em' }} className="text-center font-bold">Drink!</Text>;
+        }
+    
+    return (
+        <View className="items-center justify-evenly h-screen">
+            <Text style={{ fontSize: '80em' }} className="text-center font-bold">{remainingTime}</Text>
+        </View>
+        );
+    };
+
+    const renderTime2 = ({ remainingTime }) => {
+        if (remainingTime === 0) {
+          return <Text style={{ fontSize: '80em' }} className="text-center font-bold">Next!</Text>;
+        }
+    
+    return (
+        <View className="items-center justify-evenly h-screen">
+            <Text style={{ fontSize: '50em' }} className="text-center font-bold">Round {"\n"} {round}</Text>
+        </View>
+        );
+    };
 
     return (
 
         <SafeAreaView className="bg-neutral-100" style={styles.AndroidSafeArea}>
-            <View className="flex items-center justify-evenly h-screen">
-                {show && <View className="space-y-2">
-
-                    <TouchableOpacity onPress = {() => setScreen(1)} onPressIn = {() => toggleShow(!show)} className="w-64 h-16 justify-center rounded-lg bg-white">
-                        <Text className="text-center font-bold text-xl">Centurion Challenge</Text>
-                    </TouchableOpacity>
-
-                    <TouchableOpacity onPress={() => setScreen(2)} onPressIn = {() => toggleShow(show)} className="w-64 h-16 justify-center rounded-lg bg-white">
-                        <Text className="text-center font-bold text-xl">Power Hour Challenge</Text>
-                    </TouchableOpacity>
-
-                </View>}
-
-                <View>
-
-                    {screen == "1" ? (
-                        <View>
-                            <Text className="text-center font-bold text-xl">Centurion Challenge</Text>
-                        </View>
-
-                        ) : screen == "2" ? (
-                        <View>
-                            <Text className="text-center font-bold text-xl">Power Hour Challenge</Text>
-                        </View>
-
-                        ) : (
-                        <View>
-                    
-                        </View>
-                        )}
-
-                </View>
-
+            <View className="items-center py-20 h-screen">
+            <CountdownCircleTimer
+                        isPlaying
+                        duration={3600}
+                        size={250}
+                        isGrowing={true}
+                        colors={["#A30000", "004777", "F7B801", "A30000"]}
+                        colorsTime={[3600, 2700, 1200, 300]}
+                        onComplete={() => [false, 1000]}
+                >
+                        {renderTime2}
+                </CountdownCircleTimer>
+                <Text className="text-center font-bold font-xl"> {"\n"} </Text>
+                <CountdownCircleTimer
+                        isPlaying
+                        duration={60}
+                        size={250}
+                        colors={["#004777", "#F7B801", "#A30000", "#A30000"]}
+                        colorsTime={[60, 30, 15, 0]}
+                        onComplete={() => {playSound()  ;
+                            setRound(round + 1) ;
+                            if (round === 59){ 
+                                return { shouldRepeat: false }
+                            } ;
+                            return { shouldRepeat: true, delay: 1 } 
+                          }}
+                >
+                        {renderTime}
+                </CountdownCircleTimer>
             </View>
         </SafeAreaView>
     )

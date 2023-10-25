@@ -5,6 +5,7 @@ import styles from '../styles'
 import { TouchableOpacity } from 'react-native'
 import * as ScreenOrientation from 'expo-screen-orientation'
 import logo from '../assets/logo.png';
+
 const HomeScreen = ({navigation}) => {
 
   useLayoutEffect(() => {
@@ -14,9 +15,6 @@ const HomeScreen = ({navigation}) => {
  
     ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
   }, [])
-
-  const [selectedLanguage, setSelectedLanguage] = useState(); 
-
 
   return (
     <SafeAreaView className="bg-neutral-100" style={styles.AndroidSafeArea}>
@@ -39,8 +37,8 @@ const HomeScreen = ({navigation}) => {
             <Text className="text-center font-bold text-xl">Create Custom Prompts</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity onPress={() => navigation.navigate("Timer")} className="w-64 h-16 justify-center rounded-lg bg-white">
-            <Text className="text-center font-bold text-xl">Timer</Text>
+          <TouchableOpacity onPress={() => navigation.navigate("Power Hour")} className="w-64 h-16 justify-center rounded-lg bg-white">
+            <Text className="text-center font-bold text-xl">Power Hour</Text>
           </TouchableOpacity>
 
         </View>
