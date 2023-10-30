@@ -78,16 +78,16 @@ const GameScreen = ({navigation}) => {
        <>
        </> 
       ) : (
-      <View className={`${bgColor} flex items-center h-full justify-center`}>
+      <TouchableOpacity onPress={handleNext} className={`${bgColor} flex items-center h-full justify-center`} style={styles.card}>
         <TouchableOpacity onPress={handleNext}>
           {currentPrompt?.type !== 'general' ? (
            <Text className='text-4xl font-bold text-center'>{currentPrompt?.title}</Text> 
           ) : null}
-          <Text className="text-xl m-4">
+          <Text className="text-2xl m-4 font-semibold">
             {currentPrompt?.prompt}
           </Text>
         </TouchableOpacity>
-      </View>
+      </TouchableOpacity>
       )}
       
     </SafeAreaView>

@@ -10,6 +10,11 @@ const styles = StyleSheet.create({
     width: 322,
     height: 310,
   },
+
+  card: {
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+  }
 });
 
 export default styles;
