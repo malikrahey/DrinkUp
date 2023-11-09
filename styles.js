@@ -14,6 +14,15 @@ const styles = StyleSheet.create({
   card: {
     borderBottomLeftRadius: 20,
     borderBottomRightRadius: 20,
+  },
+
+  backB: {
+    position: 'absolute',
+    left:     0,
+    top:      0,
+    padding: 15.,
+    zIndex: 3, // works on ios
+    elevation: 3, // works on android
   }
 });
 
