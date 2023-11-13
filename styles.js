@@ -15,10 +15,11 @@ const styles = StyleSheet.create({
     position: 'absolute',
     left:     0,
     top:      0,
-    padding: 15.,
+    padding: 15,
     zIndex: 3, // works on ios
     elevation: 3, // works on android
-  }
+  },
+  
 });
 
 export default styles;

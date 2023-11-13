@@ -7,6 +7,7 @@ import * as ScreenOrientation from 'expo-screen-orientation';
 import { CountdownCircleTimer } from 'react-native-countdown-circle-timer';
 import { Audio } from 'expo-av';
 import { render } from 'react-dom/cjs/react-dom.production.min';
+import { AntDesign } from '@expo/vector-icons';
 
 const TimerScreen = ({ navigation }) => {
 
@@ -19,7 +20,7 @@ const TimerScreen = ({ navigation }) => {
 
     useLayoutEffect(() => {
         navigation.setOptions({
-            headerShown: true,
+            headerShown: false,
         })
 
         ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
@@ -58,6 +59,12 @@ const TimerScreen = ({ navigation }) => {
         interruptionModeAndroid: INTERRUPTION_MODE_ANDROID_DO_NOT_MIX,
         shouldDuckAndroid: false,})}
 
+    const handleBack = () => {
+        ScreenOrientation.unlockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
+        navigation.navigate("Home")
+        return;
+        }
+
     const renderTime = ({ remainingTime }) => {
         if (remainingTime === 0) {
           return <Text style={{ fontSize: '80em' }} className="text-center font-bold">Drink!</Text>;
@@ -85,7 +92,11 @@ const TimerScreen = ({ navigation }) => {
     return (
 
         <SafeAreaView className="bg-neutral-100" style={styles.AndroidSafeArea}>
-            <View className="items-center py-20 h-screen">
+
+            <View className="items-center py-24 h-screen">
+            <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
+            <Text className='text-5xl font-bold text-center pb-6'>Power Hour</Text>
+
             <CountdownCircleTimer
                         isPlaying
                         duration={3600}
