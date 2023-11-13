@@ -11,11 +11,6 @@ const styles = StyleSheet.create({
     height: 310,
   },
 
-  card: {
-    borderBottomLeftRadius: 20,
-    borderBottomRightRadius: 20,
-  },
-
   backB: {
     position: 'absolute',
     left:     0,
