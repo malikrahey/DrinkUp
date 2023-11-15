@@ -5,6 +5,7 @@ import { SafeAreaView } from 'react-native';
 import styles from '../styles';
 import { TouchableOpacity } from 'react-native';
 import * as ScreenOrientation from 'expo-screen-orientation';
+import { AntDesign } from '@expo/vector-icons';
 
 
 const randomizeIndexList = (maxIndex) => {
@@ -57,6 +58,12 @@ const GameScreen = ({navigation}) => {
     setCurrentPrompt(prompts[nextIndex])
   }
 
+  const handleBack = () => {
+    ScreenOrientation.unlockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
+    navigation.navigate("Home")
+    return;
+  }
+
   switch (currentPrompt?.type) {
     case "game":
       bgColor = 'bg-green-400';
@@ -78,16 +85,17 @@ const GameScreen = ({navigation}) => {
        <>
        </> 
       ) : (
-      <View className={`${bgColor} flex items-center h-full justify-center`}>
+      <TouchableOpacity onPress={handleNext} className={`${bgColor} flex items-center h-full justify-center rounded-b-lg`}>
+        <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
         <TouchableOpacity onPress={handleNext}>
           {currentPrompt?.type !== 'general' ? (
            <Text className='text-4xl font-bold text-center'>{currentPrompt?.title}</Text> 
           ) : null}
-          <Text className="text-xl m-4">
+          <Text className="text-2xl m-4 font-semibold">
             {currentPrompt?.prompt}
           </Text>
         </TouchableOpacity>
-      </View>
+      </TouchableOpacity>
       )}
       
     </SafeAreaView>

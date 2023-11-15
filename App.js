@@ -6,7 +6,6 @@ import HomeScreen from './screens/HomeScreen';
 import GameScreen from './screens/GameScreen';
 import TimerScreen from './screens/TimerScreen';
 
-
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -17,6 +16,7 @@ export default function App() {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Game" component={GameScreen} />
         <Stack.Screen name="Power Hour" component={TimerScreen} />
+
       </Stack.Navigator>
     </NavigationContainer>
   );
