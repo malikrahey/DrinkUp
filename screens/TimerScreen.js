@@ -67,24 +67,24 @@ const TimerScreen = ({ navigation }) => {
 
     const renderTime = ({ remainingTime }) => {
         if (remainingTime === 0) {
-          return <Text style={{ fontSize: '80em' }} className="text-center font-bold">Drink!</Text>;
+          return <Text className="text-center font-bold text-6xl">Drink!</Text>;
         }
     
     return (
         <View className="items-center justify-evenly h-screen">
-            <Text style={{ fontSize: '80em' }} className="text-center font-bold">{remainingTime}</Text>
+            <Text className="text-center font-bold text-8xl">{remainingTime}</Text>
         </View>
         );
     };
 
     const renderTime2 = ({ remainingTime }) => {
         if (remainingTime === 0) {
-          return <Text style={{ fontSize: '80em' }} className="text-center font-bold">Next!</Text>;
+          return <Text className="text-center font-bold text-6xl">Next!</Text>;
         }
     
     return (
         <View className="items-center justify-evenly h-screen">
-            <Text style={{ fontSize: '50em' }} className="text-center font-bold">Round {"\n"} {round}</Text>
+            <Text className="text-center font-bold text-6xl">Round {"\n"} {round}</Text>
         </View>
         );
     };
@@ -95,7 +95,7 @@ const TimerScreen = ({ navigation }) => {
 
             <View className="items-center py-24 h-screen">
             <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
-            <Text className='text-5xl font-bold text-center pb-6'>Power Hour</Text>
+            <Text className="text-center font-bold text-6xl pb-8">Power Hour</Text>
 
             <CountdownCircleTimer
                         isPlaying
