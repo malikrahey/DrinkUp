@@ -1,68 +1,320 @@
 [
     {
         "type": "ace",
+        "figure": "club",
         "title": "Sociables",
         "prompt": "Everybody drinks!"
       },
       {
         "type": "two",
+        "figure": "club",
         "title": "For You",
         "prompt": "Give a player two drinks, or two players one drink."
       }, 
       {
         "type": "three",
+        "figure": "club",
         "title": "For Me",
         "prompt": "Take two drinks. Obviously."
       },
       {
         "type": "four",
+        "figure": "club",
         "title": "Buddy System",
         "prompt": "Pick a buddy. When one drinks, so does their buddy until the next buddy system card is drawn."
       },
       {
         "type": "five",
+        "figure": "club",
         "title": "Never Have I Ever",
         "prompt": "All players raise three fingers. Go around in a circle confessing something you have never done. If someone has done it put a finger down. When someone has three fingers down the game ends, drink as many times as you have fingers down."
       },
       {
         "type": "six",
+        "figure": "club",
         "title": "Question",
         "prompt": "Ask someone around the table a question. If they refuse to answer then they need to finish their drink. "
       }, 
       {
         "type": "seven",
+        "figure": "club",
         "title": "Thumb Card",
         "prompt": "You are now the 'Thumb Master'. Any time you place your thumb on the table, every other player must immediately place their thumb on the table as well. The last person to do so must take a drink. This can be done repeatedly until another thumb card is drawn."
       },
       {
         "type": "eight",
+        "figure": "club",
         "title": "Categories",
         "prompt": "Selects a category. All players go around the circle naming items that are from that category. The first player to fail to name an item must drink."
       },
       {
         "type": "nine",
+        "figure": "club",
         "title": "Rule Card",
         "prompt": "Create a new rule. Rules can be anything. If a player fails to follow the rule, they must drink. This rule remains in effect until another Rule Card is drawn."
       },
       {
         "type": "ten",
+        "figure": "club",
         "title": "Waterfall",
         "prompt": "Begin drinking. The player clockwise to you must begin drinking immediately after you, and then the next player around the circle until all players are drinking. Once it comes back to you, stop drinking. Then the player clockwise to you may stop drinking, and so on until the end of the circle."
       },
       {
         "type": "jack",
+        "figure": "club",
         "title": "Men Drink",
         "prompt": "If you are a guy take a drink!"
       },
       {
         "type": "queen",
+        "figure": "club",
         "title": "Women Drink",
         "prompt": "If you are a lady take a drink!"
       },
       {
         "type": "king",
+        "figure": "club",
         "title": "King's Cup",
         "prompt": "Pour some of your drink in the cup of the middle. If you are the last to draw the card, finish the drink!"
+      },
+      {
+        "type": "ace",
+        "figure": "spade",
+        "title": "Sociables",
+        "prompt": "Everybody drinks!"
+      },
+      {
+        "type": "two",
+        "figure": "spade",
+        "title": "For You",
+        "prompt": "Give a player two drinks, or two players one drink."
+      }, 
+      {
+        "type": "three",
+        "figure": "spade",
+        "title": "For Me",
+        "prompt": "Take two drinks. Obviously."
+      },
+      {
+        "type": "four",
+        "figure": "spade",
+        "title": "Buddy System",
+        "prompt": "Pick a buddy. When one drinks, so does their buddy until the next buddy system card is drawn."
+      },
+      {
+        "type": "five",
+        "figure": "spade",
+        "title": "Never Have I Ever",
+        "prompt": "All players raise three fingers. Go around in a circle confessing something you have never done. If someone has done it put a finger down. When someone has three fingers down the game ends, drink as many times as you have fingers down."
+      },
+      {
+        "type": "six",
+        "figure": "spade",
+        "title": "Question",
+        "prompt": "Ask someone around the table a question. If they refuse to answer then they need to finish their drink. "
+      }, 
+      {
+        "type": "seven",
+        "figure": "spade",
+        "title": "Thumb Card",
+        "prompt": "You are now the 'Thumb Master'. Any time you place your thumb on the table, every other player must immediately place their thumb on the table as well. The last person to do so must take a drink. This can be done repeatedly until another thumb card is drawn."
+      },
+      {
+        "type": "eight",
+        "figure": "spade",
+        "title": "Categories",
+        "prompt": "Selects a category. All players go around the circle naming items that are from that category. The first player to fail to name an item must drink."
+      },
+      {
+        "type": "nine",
+        "figure": "spade",
+        "title": "Rule Card",
+        "prompt": "Create a new rule. Rules can be anything. If a player fails to follow the rule, they must drink. This rule remains in effect until another Rule Card is drawn."
+      },
+      {
+        "type": "ten",
+        "figure": "spade",
+        "title": "Waterfall",
+        "prompt": "Begin drinking. The player clockwise to you must begin drinking immediately after you, and then the next player around the circle until all players are drinking. Once it comes back to you, stop drinking. Then the player clockwise to you may stop drinking, and so on until the end of the circle."
+      },
+      {
+        "type": "jack",
+        "figure": "spade",
+        "title": "Men Drink",
+        "prompt": "If you are a guy take a drink!"
+      },
+      {
+        "type": "queen",
+        "figure": "spade",
+        "title": "Women Drink",
+        "prompt": "If you are a lady take a drink!"
+      },
+      {
+        "type": "king",
+        "figure": "spade",
+        "title": "King's Cup",
+        "prompt": "Pour some of your drink in the cup of the middle. If you are the last to draw the card, finish the drink!"
+      },
+      {
+        "type": "ace",
+        "figure": "diamonds",
+        "title": "Sociables",
+        "prompt": "Everybody drinks!"
+      },
+      {
+        "type": "two",
+        "figure": "diamonds",
+        "title": "For You",
+        "prompt": "Give a player two drinks, or two players one drink."
+      }, 
+      {
+        "type": "three",
+        "figure": "diamonds",
+        "title": "For Me",
+        "prompt": "Take two drinks. Obviously."
+      },
+      {
+        "type": "four",
+        "figure": "diamonds",
+        "title": "Buddy System",
+        "prompt": "Pick a buddy. When one drinks, so does their buddy until the next buddy system card is drawn."
+      },
+      {
+        "type": "five",
+        "figure": "diamonds",
+        "title": "Never Have I Ever",
+        "prompt": "All players raise three fingers. Go around in a circle confessing something you have never done. If someone has done it put a finger down. When someone has three fingers down the game ends, drink as many times as you have fingers down."
+      },
+      {
+        "type": "six",
+        "figure": "diamonds",
+        "title": "Question",
+        "prompt": "Ask someone around the table a question. If they refuse to answer then they need to finish their drink. "
+      }, 
+      {
+        "type": "seven",
+        "figure": "diamonds",
+        "title": "Thumb Card",
+        "prompt": "You are now the 'Thumb Master'. Any time you place your thumb on the table, every other player must immediately place their thumb on the table as well. The last person to do so must take a drink. This can be done repeatedly until another thumb card is drawn."
+      },
+      {
+        "type": "eight",
+        "figure": "diamonds",
+        "title": "Categories",
+        "prompt": "Selects a category. All players go around the circle naming items that are from that category. The first player to fail to name an item must drink."
+      },
+      {
+        "type": "nine",
+        "figure": "diamonds",
+        "title": "Rule Card",
+        "prompt": "Create a new rule. Rules can be anything. If a player fails to follow the rule, they must drink. This rule remains in effect until another Rule Card is drawn."
+      },
+      {
+        "type": "ten",
+        "figure": "diamonds",
+        "title": "Waterfall",
+        "prompt": "Begin drinking. The player clockwise to you must begin drinking immediately after you, and then the next player around the circle until all players are drinking. Once it comes back to you, stop drinking. Then the player clockwise to you may stop drinking, and so on until the end of the circle."
+      },
+      {
+        "type": "jack",
+        "figure": "diamonds",
+        "title": "Men Drink",
+        "prompt": "If you are a guy take a drink!"
+      },
+      {
+        "type": "queen",
+        "figure": "diamonds",
+        "title": "Women Drink",
+        "prompt": "If you are a lady take a drink!"
+      },
+      {
+        "type": "king",
+        "figure": "diamonds",
+        "title": "King's Cup",
+        "prompt": "Pour some of your drink in the cup of the middle. If you are the last to draw the card, finish the drink!"
+      },
+      {
+        "type": "ace",
+        "figure": "hearts",
+        "title": "Sociables",
+        "prompt": "Everybody drinks!"
+      },
+      {
+        "type": "two",
+        "figure": "hearts",
+        "title": "For You",
+        "prompt": "Give a player two drinks, or two players one drink."
+      }, 
+      {
+        "type": "three",
+        "figure": "hearts",
+        "title": "For Me",
+        "prompt": "Take two drinks. Obviously."
+      },
+      {
+        "type": "four",
+        "figure": "hearts",
+        "title": "Buddy System",
+        "prompt": "Pick a buddy. When one drinks, so does their buddy until the next buddy system card is drawn."
+      },
+      {
+        "type": "five",
+        "figure": "hearts",
+        "title": "Never Have I Ever",
+        "prompt": "All players raise three fingers. Go around in a circle confessing something you have never done. If someone has done it put a finger down. When someone has three fingers down the game ends, drink as many times as you have fingers down."
+      },
+      {
+        "type": "six",
+        "figure": "hearts",
+        "title": "Question",
+        "prompt": "Ask someone around the table a question. If they refuse to answer then they need to finish their drink. "
+      }, 
+      {
+        "type": "seven",
+        "figure": "hearts",
+        "title": "Thumb Card",
+        "prompt": "You are now the 'Thumb Master'. Any time you place your thumb on the table, every other player must immediately place their thumb on the table as well. The last person to do so must take a drink. This can be done repeatedly until another thumb card is drawn."
+      },
+      {
+        "type": "eight",
+        "figure": "hearts",
+        "title": "Categories",
+        "prompt": "Selects a category. All players go around the circle naming items that are from that category. The first player to fail to name an item must drink."
+      },
+      {
+        "type": "nine",
+        "figure": "hearts",
+        "title": "Rule Card",
+        "prompt": "Create a new rule. Rules can be anything. If a player fails to follow the rule, they must drink. This rule remains in effect until another Rule Card is drawn."
+      },
+      {
+        "type": "ten",
+        "figure": "hearts",
+        "title": "Waterfall",
+        "prompt": "Begin drinking. The player clockwise to you must begin drinking immediately after you, and then the next player around the circle until all players are drinking. Once it comes back to you, stop drinking. Then the player clockwise to you may stop drinking, and so on until the end of the circle."
+      },
+      {
+        "type": "jack",
+        "figure": "hearts",
+        "title": "Men Drink",
+        "prompt": "If you are a guy take a drink!"
+      },
+      {
+        "type": "queen",
+        "figure": "hearts",
+        "title": "Women Drink",
+        "prompt": "If you are a lady take a drink!"
+      },
+      {
+        "type": "king",
+        "figure": "hearts",
+        "title": "King's Cup",
+        "prompt": "Pour some of your drink in the cup of the middle. If you are the last to draw the card, finish the drink!"
+      },
+      {
+        "type": "joker",
+        "title": "Bottoms Up",
+        "prompt": "Finish your drink!"
       },
       {
         "type": "joker",

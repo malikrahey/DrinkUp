@@ -24,6 +24,7 @@ const CardScreen = ({navigation}) => {
     return;
     }
 
+    
   return (
     <SafeAreaView className="bg-blue-400 content-center" style={styles.AndroidSafeArea}>
 
@@ -32,7 +33,7 @@ const CardScreen = ({navigation}) => {
 
             <Swiper
                 cards={[...Array(56).keys()]}
-
+                promptIndex={0}
                 renderCard={(card) => {
                     return (
                         <View className="h-3/4 m-4 rounded-lg border-stone-200 border-2 justify-center bg-neutral-100 p-10">
@@ -40,7 +41,7 @@ const CardScreen = ({navigation}) => {
                         </View>
                     )
                 }}
-                onSwiped={(cardIndex) => {console.log(cardIndex)}}
+                onSwiped={(cardIndex) => console.log(cardIndex)}
                 cardIndex={0}
                 stackSize={2}>
             </Swiper>
