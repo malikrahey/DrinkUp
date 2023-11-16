@@ -1,12 +1,10 @@
-import { View, Text } from 'react-native'
-import React, { useEffect, useLayoutEffect, useState } from 'react'
+import { View, Text, Image, ScrollView, Icon} from 'react-native'
+import React, { useLayoutEffect, useState} from 'react'
 import { SafeAreaView } from 'react-native'
 import styles from '../styles'
 import { TouchableOpacity } from 'react-native'
-import * as ScreenOrientation from 'expo-screen-orientation';
-import { ScrollView } from 'react-native'
-import { TextInput } from 'react-native'
-import { Button } from 'react-native'
+import * as ScreenOrientation from 'expo-screen-orientation'
+import Logo from '../assets/logo.svg';
 
 const HomeScreen = ({navigation}) => {
 
@@ -44,59 +42,38 @@ const HomeScreen = ({navigation}) => {
 
   return (
     <SafeAreaView className="bg-neutral-100" style={styles.AndroidSafeArea}>
-      
-      <View className="flex items-center justify-evenly h-screen">
-
-        <Text className="text-5xl font-bold text-center mt-4 bg-white p-6 rounded-xl shadow-md">DrinkUp🍻</Text>
-        
-        {step === 0 && (
-
-          <View className="space-y-2">
-            <TouchableOpacity onPress={() => navigation.navigate("Game")} className="w-64 h-16 justify-center border rounded-lg bg-white">
-              <Text className="text-center font-bold">Around The Room</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity onPress={() => setStep(1)} className="w-64 h-16 justify-center border rounded-lg bg-white">
-              <Text className="text-center font-bold">By Name</Text>
-            </TouchableOpacity>
-            <TouchableOpacity disabled className="w-64 h-16 justify-center border rounded-lg bg-white">
-              <Text className="text-center font-bold">Create Custom Prompts</Text>
-            </TouchableOpacity>
-          </View>
-
-        )}
-        {step === 1 && (
-          <ScrollView className="h-full w-full bg-gray-100">
-          <View className="p-5">
-            {names.map((name, index) => (
-              <TextInput
-                key={index}
-                value={name}
-                onChangeText={(text) => handleNameChange(text, index)}
-                className="bg-white p-3 my-2 border rounded"
-                placeholder={`Name ${index + 1}`}
-              />
-            ))}
     
-              <View className="space-y-2">
+      <ScrollView>
 
-              <View className="">
-                
-                <Button onPress={addNewNameField} title="+" />
-              </View>
-              <View>  
-                <Button onPress={handleContinue} title="Continue" className="mt-4" />
-              </View>
+      <View className="flex items-center justify-center h-screen">
+        
+      <Logo width={'95%'} height={'10%'}/>
 
-              <View>  
-                <Button onPress={handleBack} title="Back" className="mt-4" />
-              </View>
-              </View>
-            
-          </View>
-        </ScrollView>
-        )}
+        <View className="space-y-2 p-8">
+          <TouchableOpacity onPress={() => navigation.navigate("Game")} className="w-64 h-16 justify-center rounded-lg bg-white">
+            <Text className="text-center font-bold text-xl">Around The Room</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity disabled className="hidden w-64 h-16 justify-center rounded-lg bg-white">
+            <Text className="text-center font-bold text-xl">By Name</Text>
+          </TouchableOpacity>
+          <TouchableOpacity disabled className="hidden w-64 h-16 justify-center rounded-lg bg-white">
+            <Text className="text-center font-bold text-xl">Create Custom Prompts</Text>
+          </TouchableOpacity>
+          <TouchableOpacity disabled className="hidden w-64 h-16 justify-center rounded-lg bg-white">
+            <Text className="text-center font-bold text-xl">King's Cup</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity onPress={() => navigation.navigate("Power Hour")} className="w-64 h-16 justify-center rounded-lg bg-white">
+            <Text className="text-center font-bold text-xl">Power Hour</Text>
+          </TouchableOpacity>
+
+        </View>
+        
       </View>
+
+      </ScrollView>
+
     </SafeAreaView>
   )
 }

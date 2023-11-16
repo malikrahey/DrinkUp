@@ -37,12 +37,12 @@
   {
     "type": "vote",
     "title": "Vote",
-    "prompt": "Would you rather: Would you rather $10,000 right now or flip a coin for $1 million. Everyone vote at the same itme, losing group dirnks 2 times"
+    "prompt": "Would you rather: Would you rather $10,000 right now or flip a coin for $1 million. Everyone vote at the same time, losing group drinks 2 times"
   },
   {
     "type": "vote",
     "title": "Vote",
-    "prompt": "You have a button, and everytime you press it you will receive $1 million, but someone on Earth at random will die, are you pressing it. Everyone vote at the same itme, losing group dirnks 2 times"
+    "prompt": "You have a button, and every time you press it you will receive $1 million, but someone on Earth at random will die, are you pressing it. Everyone vote at the same time, losing group drinks 2 times"
   },
   {
     "type": "general",
@@ -97,7 +97,7 @@
   {
     "type": "vote",
     "title": "Vote",
-    "prompt": "Would you rather have a great love life but poor financials or be super rich but have a terrible love life? Everyone votes at the same time, losing group drinks 2 times"
+    "prompt": "Would you rather have a great love life but poor finances or be super rich but have a terrible love life? Everyone votes at the same time, losing group drinks 2 times"
   },
   {
     "type": "virus",
@@ -255,64 +255,19 @@
     "prompt": "Without naming the title, describe the plot of your favorite book in one sentence. Others guess. If no one gets it, you drink"
   },
   {
-    "type": "vote",
-    "title": "Vote",
-    "prompt": "Who's most likely to join a nudist colony? Chosen one confesses their thoughts on the idea or drinks"
-  },
-  {
     "type": "game",
-    "title": "Would You Rather",
-    "prompt": "Would you rather be constantly itchy or constantly sticky for the rest of your life? Choose or drink"
+    "title": "Never Have I Ever",
+    "prompt": "Each player takes turns saying something they've never done. If someone else at the table has done it, they take a drink."
   },
   {
     "type": "general",
     "title": "",
-    "prompt": "Describe your first kiss in three words. Drink if you'd rather not"
+    "prompt": "Waterfall! Start drinking, the person to your left will start drinking and you can't stop until the person to your right stops"
   },
   {
     "type": "game",
-    "title": "Would You Rather",
-    "prompt": "Would you rather send a risqué text to your boss or your ex? Drink if neither appeals"
-  },
-  {
-    "type": "game",
-    "title": "Would You Rather",
-    "prompt": "Would you rather be able to read minds but can’t turn it off or have your mind open for all to see? Drink if you'd rather stay out of minds altogether"
-  },
-  {
-    "type": "game",
-    "title": "Would You Rather",
-    "prompt": "Would you rather be able to talk with animals or speak every human language fluently? Choose or drink"
-  },
-  {
-    "type": "game",
-    "title": "Would You Rather",
-    "prompt": "Would you rather walk in on your parents or have them walk in on you? Vote at the same time losers drink 3 times"
-  },
-  {
-    "type": "game",
-    "title": "Game",
-    "prompt": "Describe a movie plot badly. First person to guess correctly gives out 2 drinks."
-  },
-  {
-    "type": "general",
-    "title": "",
-    "prompt": "Name a country you'd love to visit but haven't been to yet. Drink if you've been everywhere you've dreamt of."
-  },
-  {
-    "type": "virus",
-    "title": "Virus",
-    "prompt": "Every time someone says the word 'drink', they and the person next to them drink."
-  },
-  {
-    "type": "general",
-    "title": "",
-    "prompt": "Anyone who has ever broken a bone, take a drink."
-  },
-  {
-    "type": "virus",
-    "title": "Virus",
-    "prompt": "Every time someone laughs, they and the person who made them laugh drink."
+    "title": "Rock, Paper, Scissors",
+    "prompt": "Play a quick game of Rock, Paper, Scissors. The loser takes a drink."
   }
 
 ]

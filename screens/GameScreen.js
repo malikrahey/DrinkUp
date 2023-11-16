@@ -5,6 +5,7 @@ import { SafeAreaView } from 'react-native';
 import styles from '../styles';
 import { TouchableOpacity } from 'react-native';
 import * as ScreenOrientation from 'expo-screen-orientation';
+import { AntDesign } from '@expo/vector-icons';
 
 
 const randomizeIndexList = (maxIndex) => {
@@ -20,7 +21,6 @@ const randomizeIndexList = (maxIndex) => {
 
 const GameScreen = ({navigation}) => {
 
-  
   const [currentPrompt, setCurrentPrompt] = useState(prompts[0]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [indexList, setIndexList] = useState([]);
@@ -50,16 +50,19 @@ const GameScreen = ({navigation}) => {
   const handleNext = () => {
     const nextIndex = currentIndex+1;
     if (nextIndex >= prompts.length) {
+      ScreenOrientation.unlockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
       navigation.navigate("Home")
-      ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
       return;
     }
     setCurrentIndex(nextIndex);
     setCurrentPrompt(prompts[nextIndex])
   }
 
-  console.log(prompts.length)
-
+  const handleBack = () => {
+    ScreenOrientation.unlockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
+    navigation.navigate("Home")
+    return;
+  }
 
   switch (currentPrompt?.type) {
     case "game":
@@ -82,16 +85,17 @@ const GameScreen = ({navigation}) => {
        <>
        </> 
       ) : (
-      <View className={`${bgColor} flex items-center h-full justify-center`}>
+      <TouchableOpacity onPress={handleNext} className={`${bgColor} flex items-center h-full justify-center rounded-b-lg`}>
+        <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
         <TouchableOpacity onPress={handleNext}>
           {currentPrompt?.type !== 'general' ? (
            <Text className='text-4xl font-bold text-center'>{currentPrompt?.title}</Text> 
           ) : null}
-          <Text className="text-2xl m-4">
+          <Text className="text-2xl m-4 font-semibold">
             {currentPrompt?.prompt}
           </Text>
         </TouchableOpacity>
-      </View>
+      </TouchableOpacity>
       )}
       
     </SafeAreaView>
