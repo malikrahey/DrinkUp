@@ -8,6 +8,9 @@ import Logo from '../assets/logo.svg';
 
 const HomeScreen = ({navigation}) => {
 
+  const [step, setStep] = useState(0);
+  const [names, setNames] = useState(['', '', '']); // Initialize with 3 empty strings
+
   useLayoutEffect(() => {
     navigation.setOptions({
       headerShown: false
@@ -15,6 +18,27 @@ const HomeScreen = ({navigation}) => {
  
     ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
   }, [])
+
+  const handleNameChange = (text, index) => {
+    const newNames = [...names];
+    newNames[index] = text;
+    setNames(newNames);
+  };
+
+  const addNewNameField = () => {
+    setNames([...names, '']);
+  };
+
+  const handleContinue = () => {
+    // Here you can send the names somewhere or navigate to another screen
+    console.log(names);
+  };
+
+  const handleBack = () => {
+    setStep(0);
+  }
+
+
 
   return (
     <SafeAreaView className="bg-neutral-100" style={styles.AndroidSafeArea}>
