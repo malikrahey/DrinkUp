@@ -13,7 +13,7 @@ const suits = [
   "♠",
   "♥",
   "♦",
-  "♣"
+  "♣",
 ];
 
 const cards = [
@@ -40,7 +40,7 @@ const cards = [
   {
     "value": "5",
     "title": "Never Have I Ever",
-    "prompt": "All players raise three fingers. Go around in a circle confessing something you have never done. If someone has done it put a finger down. When someone has three fingers down the game ends, drink as many times as you have fingers down."
+    "prompt": "Players raise 3 fingers, take turns confessing things you've never done. If someone did it, lower a finger. When 3 fingers are down, game ends, drink for each finger down."
   },
   {
     "value": "6",
@@ -50,7 +50,7 @@ const cards = [
   {
     "value": "7",
     "title": "Thumb Card",
-    "prompt": "You are now the 'Thumb Master'. Any time you place your thumb on the table, every other player must immediately place their thumb on the table as well. The last person to do so must take a drink. This can be done repeatedly until another thumb card is drawn."
+    "prompt": "You're the 'Thumb Master'. When you put your thumb down on the table it means all others follow suit. Last to do it drinks. Keep going until a new thumb card's drawn."
   },
   {
     "value": "8",
@@ -65,7 +65,7 @@ const cards = [
   {
     "value": "10",
     "title": "Waterfall",
-    "prompt": "Begin drinking. The player clockwise to you must begin drinking immediately after you, and then the next player around the circle until all players are drinking. Once it comes back to you, stop drinking. Then the player clockwise to you may stop drinking, and so on until the end of the circle."
+    "prompt": "Start drinking. Player to your right follows your lead, repeating until all are drinking. When it's your turn again, stop. Then, the player to your right stops, continuing around the circle."
   },
   {
     "value": "J",
@@ -135,19 +135,22 @@ const CardScreen = ({navigation}) => {
 
     
   return (
-    <SafeAreaView className="bg-blue-400 content-center" style={styles.AndroidSafeArea}>
+    <SafeAreaView className="bg-blue-400" style={styles.AndroidSafeArea}>
 
-        <View className="flex">
-            <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black"/>
+      <View className="flex justify-center h-1/6">
+        <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
 
-            <Swiper
-                cards={deck}
-                renderCard={(card) => <Card {...card} />}
-                
-                cardIndex={0}
-                stackSize={2}>
-            </Swiper>
+        <View>
+          <Swiper
+            cards={deck}
+            renderCard={(card) => <Card {...card} />}
+            cardIndex={0}
+            stackSize={2}
+            onSwipedAll={handleBack}
+          />
         </View>
+
+      </View>
 
     </SafeAreaView>
   )
@@ -160,18 +163,18 @@ const Card = ({value, suit, prompt, title}) => {
   return (
     <View className="bg-white h-[520px] justify-between rounded-xl p-2">
       <View className="justify-start">
-        <Text className={`text-3xl font-bold ${textColor}`}>{suit} {value}</Text>
+        <Text className={`text-5xl p-3 font-bold ${textColor}`}>{suit} {value}</Text>
       </View>
       <View className="items-center">
-        <Text className="text-4xl font-bold">
+        <Text className={`text-4xl p-3 font-bold ${textColor}`}>
           {title}
         </Text>
-        <Text className="text-xl">
+        <Text className="text-2xl p-3">
           {prompt}
         </Text>
       </View>
       <View className="justify-end">
-        <Text className={`rotate-180 text-3xl font-bold ${textColor}`}>{suit} {value}</Text>
+        <Text className={`rotate-180 text-5xl p-3 font-bold ${textColor}`}>{suit} {value}</Text>
       </View>
     </View>
   )
