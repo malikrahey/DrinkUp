@@ -67,24 +67,24 @@ const TimerScreen = ({ navigation }) => {
 
     const renderTime = ({ remainingTime }) => {
         if (remainingTime === 0) {
-          return <Text className="text-center font-bold text-6xl">Drink!</Text>;
+          return <Text className="text-center font-bold text-5xl">Drink!</Text>;
         }
     
     return (
         <View className="items-center justify-evenly h-screen">
-            <Text className="text-center font-bold text-8xl">{remainingTime}</Text>
+            <Text className="text-center font-bold text-6xl">{remainingTime}</Text>
         </View>
         );
     };
 
     const renderTime2 = ({ remainingTime }) => {
         if (remainingTime === 0) {
-          return <Text className="text-center font-bold text-6xl">Next!</Text>;
+          return <Text className="text-center font-bold text-5xl">Next!</Text>;
         }
     
     return (
         <View className="items-center justify-evenly h-screen">
-            <Text className="text-center font-bold text-6xl">Round {"\n"} {round}</Text>
+            <Text className="text-center font-bold text-5xl">Round {"\n"} {round}</Text>
         </View>
         );
     };
@@ -93,16 +93,18 @@ const TimerScreen = ({ navigation }) => {
 
         <SafeAreaView className="bg-neutral-100" style={styles.AndroidSafeArea}>
 
-            <View className="items-center py-24 h-screen">
+            <View className="items-center py-20 h-screen">
             <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
-            <Text className="text-center font-bold text-6xl pb-8">Power Hour</Text>
+            <Text className="text-center font-bold text-5xl pb-6">Power Hour Timer</Text>
 
             <CountdownCircleTimer
                         isPlaying
                         duration={3600}
                         size={250}
                         isGrowing={true}
-                        colors={["#A30000", "004777", "F7B801", "A30000"]}
+                        strokeWidth={20}
+                        rotation={'counterclockwise'}
+                        colors={['#66bb6a', '#ffea00', '#ffa726', '#ef5350']}
                         colorsTime={[3600, 2700, 1200, 300]}
                         onComplete={() => [false, 1000]}
                 >
@@ -113,7 +115,8 @@ const TimerScreen = ({ navigation }) => {
                         isPlaying
                         duration={60}
                         size={250}
-                        colors={["#004777", "#F7B801", "#A30000", "#A30000"]}
+                        strokeWidth={20}
+                        colors={['#66bb6a', '#ffea00', '#ffa726', '#ef5350']}
                         colorsTime={[60, 30, 15, 0]}
                         onComplete={() => {playSound()  ;
                             setRound(round + 1) ;
