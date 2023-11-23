@@ -22,7 +22,6 @@ const TimerScreen = ({ navigation }) => {
         navigation.setOptions({
             headerShown: false,
         })
-
         ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
     }, [])
 
@@ -60,7 +59,7 @@ const TimerScreen = ({ navigation }) => {
         shouldDuckAndroid: false,})}
 
     const handleBack = () => {
-        ScreenOrientation.unlockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
+        ScreenOrientation.unlockAsync();
         navigation.navigate("Home")
         return;
         }

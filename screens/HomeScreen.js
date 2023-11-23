@@ -11,12 +11,19 @@ const HomeScreen = ({navigation}) => {
   const [step, setStep] = useState(0);
   const [names, setNames] = useState(['', '', '']); // Initialize with 3 empty strings
 
+  async function changeScreenOrientation() {
+    await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
+  }
+
   useLayoutEffect(() => {
     navigation.setOptions({
       headerShown: false
     })
- 
-    ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
+    
+    try {
+      changeScreenOrientation();
+    } catch {}
+    
   }, [])
 
   const handleNameChange = (text, index) => {
