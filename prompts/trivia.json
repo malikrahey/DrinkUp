@@ -1243,5 +1243,405 @@
   "category": "Science",
   "question": "Where do sloths live?",
   "answer": "Trees"
+},
+{
+  "category": "Science",
+  "question": "What element did Joseph Priestley discover in 1774?",
+  "answer": "Oxygen"
+},
+{
+  "category": "Science",
+  "question": "What inorganic molecule is produced by lightning?",
+  "answer": "Ozone"
+},
+{
+  "category": "Science",
+  "question": "Bronze is an alloy consisting primarily of what two elements?",
+  "answer": "Copper and Tin"
+},
+{
+  "category": "Science",
+  "question": "What is the nearest planet to the sun?",
+  "answer": "Mercury"
+},
+{
+  "category": "Science",
+  "question": "The earth has three layers that are different due to varying temperatures. What are its three layers?",
+  "answer": "Crust, mantle, and core"
+},
+{
+  "category": "Science",
+  "question": "What is the largest known land animal?",
+  "answer": "Elephant"
+},
+{
+  "category": "Science",
+  "question": "Which of Newton’s Laws states that 'for every action, there is an equal and opposite reaction?'",
+  "answer": "The third law of motion"
+},
+{
+  "category": "Science",
+  "question": "How many elements are there in the periodic table?",
+  "answer": "118"
+},
+{
+  "category": "Science",
+  "question": "What is the tallest type of grass?",
+  "answer": "Bamboo"
+},
+{
+  "category": "Science",
+  "question": "How many bones do sharks have?",
+  "answer": "Zero"
+},
+{
+  "category": "Science",
+  "question": "Diabetes develops as the result of a problem with which specific organ in the body?",
+  "answer": "Pancreas"
+},
+{
+  "category": "Science",
+  "question": "What is the rarest blood type?",
+  "answer": "AB-"
+},
+{
+  "category": "Science",
+  "question": "What is it called when you make light change direction by passing it through a lens?",
+  "answer": "Refraction"
+},
+{
+  "category": "Science",
+  "question": "What type of bond involves the sharing of electron pairs between different atoms?",
+  "answer": "Covalent"
+},
+{
+  "category": "Science",
+  "question": "Where is the world’s most active volcano located?",
+  "answer": "Hawaii"
+},
+{
+  "category": "Science",
+  "question": "What disease stems from the medieval term that means 'bad air'?",
+  "answer": "Malaria"
+},
+{
+  "category": "Science",
+  "question": "Optics is the study of what?",
+  "answer": "Light"
+},
+{
+  "category": "Science",
+  "question": "What part of the brain deals with hearing and language?",
+  "answer": "Temporal lobe"
+},
+{
+  "category": "Science",
+  "question": "Dolly was the first-ever living creature to be cloned. What type of animal was she?",
+  "answer": "Sheep"
+},
+{
+  "category": "Science",
+  "question": "Animals that eat both plants and meat are called what?",
+  "answer": "Omnivores"
+},
+{
+  "category": "Science",
+  "question": "What is the quality of an object that allows it to float on water?",
+  "answer": "Buoyancy"
+},
+{
+  "category": "Science",
+  "question": "What is the largest internal organ of the human body?",
+  "answer": "Liver"
+},
+{
+  "category": "Science",
+  "question": "Oncology focuses on what disease?",
+  "answer": "Cancer"
+},
+{
+  "category": "Science",
+  "question": "Which two elements on the periodic table are liquids at room temperature?",
+  "answer": "Mercury and Bromine"
+},
+{
+  "category": "Science",
+  "question": "What planet in our solar system has the most gravity?",
+  "answer": "Jupiter"
+},
+{
+  "category": "Science",
+  "question": "Penicillin is used to fight what type of infections?",
+  "answer": "Bacterial"
+},
+{
+  "category": "Science",
+  "question": "What is the medical term for bad breath?",
+  "answer": "Halitosis"
+},
+{
+  "category": "Science",
+  "question": "The study of the weather is called what?",
+  "answer": "Meteorology"
+},
+{
+  "category": "Science",
+  "question": "What is a Geiger Counter used to measure?",
+  "answer": "Radiation"
+},
+{
+  "category": "Science",
+  "question": "What type of cell division results in two four daughter cells, each with half the number of chromosomes in the parent cells?",
+  "answer": "Meiosis"
+},
+{
+  "category": "Science",
+  "question": "What is the symbol of the element silver?",
+  "answer": "Ag"
+},
+{
+  "category": "Science",
+  "question": "What does ‘E’ represent in E=MC2?",
+  "answer": "Energy"
+},
+{
+  "category": "Science",
+  "question": "According to Apollo astronauts, the Moon smells like what?",
+  "answer": "Burnt gunpowder"
+},
+{
+  "category": "Science",
+  "question": "Frogs belong to which animal group?",
+  "answer": "Amphibians"
+},
+{
+  "category": "Science",
+  "question": "Which component of an atom might you expect to be orbiting around it?",
+  "answer": "Electrons"
+},
+{
+  "category": "Science",
+  "question": "Mycology is the scientific study of what?",
+  "answer": "Fungi"
+},
+{
+  "category": "Science",
+  "question": "What is the name of the red pigment found in vertebrates that functions in oxygen transport?",
+  "answer": "Hemoglobin"
+},
+{
+  "category": "Science",
+  "question": "What is the electrical charge of a neutron?",
+  "answer": "No charge"
+},
+{
+  "category": "Science",
+  "question": "What kind of energy does an unlit match have?",
+  "answer": "Chemical energy"
+},
+{
+  "category": "Science",
+  "question": "How do you calculate density?",
+  "answer": "Density is mass divided by volume"
+},
+{
+  "category": "Science",
+  "question": "What is it called when an individual doesn’t offer to help someone in an emergency if there are other people present?",
+  "answer": "Bystander effect"
+},
+{
+  "category": "Science",
+  "question": "Which psychological concept did Pavlov’s dog help him describe?",
+  "answer": "Conditioning"
+},
+{
+  "category": "Science",
+  "question": "In terms of pH, what is ammonia?",
+  "answer": "Basic"
+},
+{
+  "category": "Science",
+  "question": "About how old is Earth?",
+  "answer": "4.5 billion years"
+},
+{
+  "category": "Science",
+  "question": "What is the name of the most recent supercontinent?",
+  "answer": "Pangea"
+},
+{
+  "category": "Science",
+  "question": "What is the scientific term for peeling skin?",
+  "answer": "Desquamation"
+},
+{
+  "category": "History",
+  "question": "What was the shortest war in human history?",
+  "answer": "The war between England and Zanzibar"
+},
+{
+  "category": "History",
+  "question": "How long did the war between England and Zanzibar last?",
+  "answer": "Between 38 & 45 minutes"
+},
+{
+  "category": "History",
+  "question": "How many years did the 100 years war last?",
+  "answer": "116 years"
+},
+{
+  "category": "History",
+  "question": "What was the name of the research ship Charles Darwin traveled with?",
+  "answer": "The Beagle"
+},
+{
+  "category": "History",
+  "question": "In which year did Hitler commit suicide?",
+  "answer": "1945"
+},
+{
+  "category": "History",
+  "question": "In which year was John F. Kennedy assassinated?",
+  "answer": "1963"
+},
+{
+  "category": "History",
+  "question": "One of the ancient world wonders, the 'Hanging Gardens,' was found in which city?",
+  "answer": "Babylon"
+},
+{
+  "category": "History",
+  "question": "Greenland was a colony of which country until 1981?",
+  "answer": "Denmark"
+},
+{
+  "category": "History",
+  "question": "Which organization was awarded the Nobel Peace Prize in 1917?",
+  "answer": "The Red Cross"
+},
+{
+  "category": "History",
+  "question": "How many days in a week were there in ancient Roman times?",
+  "answer": "8"
+},
+{
+  "category": "History",
+  "question": "How many days was William Harrison President of the United States?",
+  "answer": "32"
+},
+{
+  "category": "History",
+  "question": "In 1927, who became the first man to fly solo and non-stop across the Atlantic?",
+  "answer": "Charles Lindbergh"
+},
+{
+  "category": "History",
+  "question": "What was the family name of the Russian rulers from the 17th century until the 1917 revolution?",
+  "answer": "Romanov"
+},
+{
+  "category": "History",
+  "question": "Which bridge was the first to be built across the River Thames in London?",
+  "answer": "London Bridge"
+},
+{
+  "category": "History",
+  "question": "Which U.S. president had a home called The Hermitage?",
+  "answer": "Andrew Jackson"
+},
+{
+  "category": "History",
+  "question": "Which famous battle took place on Sunday, June 18th, 1815?",
+  "answer": "The Battle of Waterloo"
+},
+{
+  "category": "History",
+  "question": "How many U.S. presidents have been assassinated?",
+  "answer": "Four"
+},
+{
+  "category": "History",
+  "question": "What are the names of the U.S. presidents who have been assassinated?",
+  "answer": "Abraham Lincoln, James A. Garfield, William McKinley, John F. Kennedy"
+},
+{
+  "category": "History",
+  "question": "Which King of England was executed in 1649 during the English Civil War?",
+  "answer": "Charles I."
+},
+{
+  "category": "History",
+  "question": "Which world leader is famous for his 'Little Red Book'?",
+  "answer": "Mao Zedong, or Mao Tse-tung"
+},
+{
+  "category": "History",
+  "question": "When did Mao Zedong come to power?",
+  "answer": "1949"
+},
+{
+  "category": "History",
+  "question": "In which country did the Easter Rising take place in 1916?",
+  "answer": "Ireland"
+},
+{
+  "category": "History",
+  "question": "Which seven U.S. states seceded and formed the original Confederacy during the U.S. Civil War?",
+  "answer": "Alabama, Florida, Georgia, Louisiana, Mississippi, South Carolina, and Texas"
+},
+{
+  "category": "History",
+  "question": "What name is given to Britain’s policy of avoiding strict enforcement of parliamentary laws on early American colonies?",
+  "answer": "Salutary neglect"
+},
+{
+  "category": "Science",
+  "question": "What was the name of the first Space Shuttle to go into space?",
+  "answer": "Space Shuttle Columbia"
+},
+{
+  "category": "Science",
+  "question": "When did the first Space Shuttle go into space?",
+  "answer": "April 12th, 1981"
+},
+{
+  "category": "History",
+  "question": "The ancient Egyptians worshiped dung beetle?",
+  "answer": "The scarab"
+},
+{
+  "category": "History",
+  "question": "Who was shot outside the Hilton Hotel in Washington on March 30th, 1981?",
+  "answer": "President Ronald Reagan"
+},
+{
+  "category": "History",
+  "question": "Which mountaineer and his Sherpa became the first men to conquer Mount Everest?",
+  "answer": "Sir Edmund Hillary and Tenzing Norgay"
+},
+{
+  "category": "History",
+  "question": "How did Alexander the Great solve the puzzle of the Gordion knot?",
+  "answer": "He cut it with a sword"
+},
+{
+  "category": "History",
+  "question": "Who was the first man to walk on the moon, and in which year?",
+  "answer": "Neil Armstrong, 1969"
+},
+{
+  "category": "History",
+  "question": "Which Greek historian is known as the 'Father of History'?",
+  "answer": "Herodotus"
+},
+{
+  "category": "Science",
+  "question": "Which Russian astronaut was the first man to conduct a spacewalk?",
+  "answer": "Alexey Leonov"
+},
+{
+  "category": "History",
+  "question": "In which Libyan city was the American diplomatic compound attacked in September 2012?",
+  "answer": "Benghazi"
 }
 ]

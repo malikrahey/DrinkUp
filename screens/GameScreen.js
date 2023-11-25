@@ -80,7 +80,7 @@ const GameScreen = ({navigation}) => {
   }
 
   return (
-    <View>
+    <SafeAreaView style={styles.AndroidSafeArea}>
       {loading ? (
        <>
        </> 
@@ -98,7 +98,7 @@ const GameScreen = ({navigation}) => {
       </TouchableOpacity>
       )}
       
-    </View>
+    </SafeAreaView>
   )
 }
 
