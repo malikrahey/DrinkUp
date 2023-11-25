@@ -21,7 +21,15 @@
         "UIBackgroundModes": [
           "audio"
         ]
-      }
+      },
+      "plugins": [
+        [
+          "expo-screen-orientation",
+          {
+            "initialOrientation": "DEFAULT"
+          }
+        ]
+      ]
     },
     "android": {
       "adaptiveIcon": {
@@ -35,7 +43,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "5dc56cbf-f78d-4b21-a70f-dfabc783fd46"
+        "projectId": "79de97ac-44a2-44cd-aa95-103929eaf4c9"
       }
     }
   }
