@@ -20,7 +20,7 @@ const randomizeIndexList = (maxIndex) => {
 }
 
 
-const TriviaScreen = () => {
+const TriviaScreen = ({navigation}) => {
   const [currentPrompt, setCurrentPrompt] = useState(prompts[0]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [indexList, setIndexList] = useState([]);
@@ -61,7 +61,7 @@ const TriviaScreen = () => {
         return;
       }
       setCurrentIndex(nextIndex);
-      setCurrentPrompt(prompts[nextIndex]);
+      setCurrentPrompt(prompts[indexList[nextIndex]]);
       setStep(0);
 
     }
@@ -73,18 +73,24 @@ const TriviaScreen = () => {
     return;
   }
 
-  switch (currentPrompt?.type) {
-    case "game":
+  switch (currentPrompt?.category) {
+    case "Geography":
       bgColor = 'bg-green-400';
       break;
-    case "jury":
+    case "History":
       bgColor = 'bg-purple-400';
       break;
-    case "vote":
+    case "Science":
       bgColor = 'bg-blue-400'
       break;
-    case "virus":
+    case "Literature":
       bgColor = 'bg-yellow-400'
+      break;
+    case "Sports":
+      bgColor = 'bg-red-200'
+      break;
+    case "Technology":
+      bgColor = 'bg-blue-200'
       break;
   }
 
@@ -96,7 +102,7 @@ const TriviaScreen = () => {
       ) : (
       <TouchableOpacity onPress={handleNext} className={`${bgColor} flex items-center h-full justify-center rounded-b-lg`}>
         <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
-        <TouchableOpacity onPress={handleNext}>
+        <TouchableOpacity className="text-center" onPress={handleNext}>
           <Text className='text-4xl font-bold text-center'>{currentPrompt?.category}</Text> 
           
           {step > 0 && (
@@ -106,7 +112,7 @@ const TriviaScreen = () => {
           )}
 
           {step > 1 && (
-            <Text className="text-2xl m-4 font-semibold">
+            <Text className="text-2xl m-4 font-semibold text-center">
               {currentPrompt?.answer}
             </Text>
           )}

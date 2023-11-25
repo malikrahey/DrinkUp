@@ -55,7 +55,7 @@ const GameScreen = ({navigation}) => {
       return;
     }
     setCurrentIndex(nextIndex);
-    setCurrentPrompt(prompts[nextIndex])
+    setCurrentPrompt(prompts[indexList[nextIndex]])
   }
 
   const handleBack = () => {
@@ -80,7 +80,7 @@ const GameScreen = ({navigation}) => {
   }
 
   return (
-    <SafeAreaView style={styles.AndroidSafeArea}>
+    <View>
       {loading ? (
        <>
        </> 
@@ -98,7 +98,7 @@ const GameScreen = ({navigation}) => {
       </TouchableOpacity>
       )}
       
-    </SafeAreaView>
+    </View>
   )
 }
 
