@@ -68,11 +68,15 @@ const HomeScreen = ({navigation}) => {
             <Text className="text-center font-bold text-xl">Create Custom Prompts</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity onPress={() => navigation.navigate("Card Screen")} className="w-64 h-16 justify-center rounded-lg bg-white">
+          <TouchableOpacity onPress={() => navigation.navigate("Sociables")} className="w-64 h-16 justify-center rounded-lg bg-white">
             <Text className="text-center font-bold text-xl">Sociables</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity onPress={() => navigation.navigate("Power Hour")} className="w-64 h-16 justify-center rounded-lg bg-white">
+          <TouchableOpacity onPress={() => navigation.navigate("Trivia")} className="w-64 h-16 justify-center rounded-lg bg-white">
+            <Text className="text-center font-bold text-xl">Trivia</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity onPress={() => navigation.navigate("Timer")} className="w-64 h-16 justify-center rounded-lg bg-white">
             <Text className="text-center font-bold text-xl">Power Hour</Text>
           </TouchableOpacity>
 

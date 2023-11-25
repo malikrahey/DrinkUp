@@ -1,0 +1,1247 @@
+[
+  {
+      "category": "Geography",
+      "question": "What is the capital city of Mongolia?",
+      "answer": "Ulaanbaatar"
+  },
+  {
+      "category": "Science",
+      "question": "What is the rarest blood type among humans?",
+      "answer": "AB-negative"
+  },
+  {
+      "category": "History",
+      "question": "How many wives did King Henry VIII have?",
+      "answer": "Six"
+  },
+  {
+      "category": "Sports",
+      "question": "In which year did Serena Williams win her first Grand Slam singles title?",
+      "answer": "1999 (US Open)"
+  },
+  {
+      "category": "Sports",
+      "question": "In what year and in which city were the first modern Olympic Games held?",
+      "answer": "1896 in Athens, Greece"
+  },
+  {
+      "category": "Geography",
+      "question": "What is the specific term used to describe a type of sandstorm characterized by strong winds carrying a wall of dust and sand, reducing visibility and causing hazardous conditions?",
+      "answer": "Haboob"
+  },
+  {
+      "category": "History",
+      "question": "Benjamin Franklin was a key figure in the drafting of the United States Constitution. Which state did he represent during the Constitutional Convention in 1787?",
+      "answer": "Pennsylvania"
+  },
+  {
+      "category": "Technology",
+      "question": "Before founding Facebook, Mark Zuckerberg created a website that allowed users to compare the attractiveness of two people side by side. What was the name of this website?",
+      "answer": "Facemash"
+  },
+  {
+      "category": "Pop Culture",
+      "question": "In the early 20th century, a soft drink named 'Bib-Label Lithiated Lemon-Lime Soda' was known for containing lithium. Which company later acquired this beverage and transformed it into a popular lemon-lime soft drink we know today?",
+      "answer": "Coca-Cola Company (they rebranded it as 7UP)"
+  },
+  {
+      "category": "Geography",
+      "question": "What is the capital city of Bhutan?",
+      "answer": "Thimphu"
+  },
+  {
+      "category": "Science",
+      "question": "In mathematics, what is the name for a number that is not a prime number and has more than two factors?",
+      "answer": "Composite number"
+  },
+  {
+      "category": "General",
+      "question": "Who is the Greek god of war and son of Zeus and Hera?",
+      "answer": "Ares"
+  },
+  {
+      "category": "Science",
+      "question": "What is the scientific term for the 'little brain' at the base of the brain that coordinates movement and balance?",
+      "answer": "Cerebellum"
+  },
+  {
+      "category": "Science",
+      "question": "What is the chemical symbol for the element mercury?",
+      "answer": "Hg"
+  },
+  {
+      "category": "Science",
+      "question": "What is the name of the largest moon of Jupiter?",
+      "answer": "Ganymede"
+  },
+  {
+    "category": "History",
+    "question": "In what year did the Berlin Wall fall?",
+    "answer": "1989"
+},
+{
+    "category": "Geography",
+    "question": "What is the capital city of Brazil?",
+    "answer": "Brasília"
+},
+{
+    "category": "General",
+    "question": "Who wrote 'Pride and Prejudice'?",
+    "answer": "Jane Austen"
+},
+{
+    "category": "Science",
+    "question": "Who is known as the 'Father of Modern Physics'?",
+    "answer": "Albert Einstein"
+},
+{
+    "category": "Geography",
+    "question": "Which mountain range is the longest in the world?",
+    "answer": "The Andes"
+},
+{
+    "category": "Geography",
+    "question": "What is the largest island in the world?",
+    "answer": "Greenland"
+},
+{
+    "category": "Science",
+    "question": "What is the chemical symbol for silver?",
+    "answer": "Ag"
+},
+{
+    "category": "General",
+    "question": "Who painted 'The Persistence of Memory'?",
+    "answer": "Salvador Dali"
+},
+{
+    "category": "Science",
+    "question": "What is the largest bone in the human body?",
+    "answer": "Femur"
+},
+{
+    "category": "History",
+    "question": "Before becoming President, Barack Obama served as a U.S. Senator from which state?",
+    "answer": "Illinois"
+},
+{
+    "category": "History",
+    "question": "In which year did the Titanic sink?",
+    "answer": "1912"
+},
+{
+    "category": "Geography",
+    "question": "What is the capital city of Argentina?",
+    "answer": "Buenos Aires"
+},
+{
+    "category": "General",
+    "question": "Who painted the famous artwork 'The Last Supper'?",
+    "answer": "Leonardo da Vinci"
+},
+{
+    "category": "History",
+    "question": "In which year did World War II end?",
+    "answer": "1945"
+},
+{
+    "category": "General",
+    "question": "What is the currency of Japan?",
+    "answer": "Japanese Yen"
+},
+{
+    "category": "Technology",
+    "question": "What year was the very first model of the iPhone released?",
+    "answer": "2007"
+},
+{
+    "category": "Technology",
+    "question": "What’s the shortcut for the 'copy' function on most computers?",
+    "answer": "ctrl c"
+},
+{
+    "category": "Technology",
+    "question": "What is often seen as the smallest unit of memory?",
+    "answer": "kilobyte"
+},
+{
+    "category": "Technology",
+    "question": "Is Java a type of OS?",
+    "answer": "No"
+},
+{
+    "category": "Technology",
+    "question": "Who is often called the father of the computer?",
+    "answer": "Charles Babbage"
+},
+{
+    "category": "Technology",
+    "question": "What does 'HTTP' stand for?",
+    "answer": "HyperText Transfer Protocol"
+},
+{
+    "category": "Technology",
+    "question": "What is the name of the man who launched eBay back in 1995?",
+    "answer": "Pierre Omidyar"
+},
+{
+    "category": "Technology",
+    "question": "Which email service is owned by Microsoft?",
+    "answer": "Hotmail"
+},
+{
+    "category": "Technology",
+    "question": "Google Chrome, Safari, Firefox, and Explorer are different types of what?",
+    "answer": "Web browsers"
+},
+{
+    "category": "Technology",
+    "question": "What was Twitter’s original name?",
+    "answer": "twttr"
+},
+{
+    "category": "Technology",
+    "question": "Which programming language is often used for developing Android applications?",
+    "answer": "Java"
+},
+{
+    "category": "Technology",
+    "question": "What is the name of the open-source operating system created by Linus Torvalds?",
+    "answer": "Linux"
+},
+{
+    "category": "Technology",
+    "question": "In the context of email, what does 'CC' stand for?",
+    "answer": "Carbon Copy"
+},
+{
+    "category": "Technology",
+    "question": "In computing, what does 'CPU' stand for?",
+    "answer": "Central Processing Unit"
+},
+{
+    "category": "Technology",
+    "question": "Which company developed the first commercially available computer mouse?",
+    "answer": "Xerox"
+},
+{
+    "category": "Science",
+    "question": "Who discovered penicillin?",
+    "answer": "Alexander Fleming"
+},
+{
+    "category": "Science",
+    "question": "Who was the first woman to win a Nobel Prize (in 1903)?",
+    "answer": "Marie Curie"
+},
+{
+    "category": "Science",
+    "question": "What part of the atom has no electric charge?",
+    "answer": "Neutron"
+},
+{
+    "category": "Science",
+    "question": "What is the symbol for potassium?",
+    "answer": "K"
+},
+{
+    "category": "Science",
+    "question": "What is meteorology the study of?",
+    "answer": "The weather"
+},
+{
+    "category": "Science",
+    "question": "Which planet is the hottest in the solar system?",
+    "answer": "Venus"
+},
+{
+    "category": "Science",
+    "question": "Which natural disaster is measured with a Richter scale?",
+    "answer": "Earthquakes"
+},
+{
+    "category": "Science",
+    "question": "What animals are pearls found in?",
+    "answer": "Oysters"
+},
+{
+    "category": "Science",
+    "question": "Which planet has the most gravity?",
+    "answer": "Jupiter"
+},
+{
+    "category": "Science",
+    "question": "How many molecules of oxygen does ozone have?",
+    "answer": "Three"
+},
+{
+    "category": "Pop Culture",
+    "question": "What is Hawkeye’s real name?",
+    "answer": "Clint Barton"
+},
+{
+    "category": "Pop Culture",
+    "question": "Which Avenger is the only one who could calm the Hulk down?",
+    "answer": "Black Widow"
+},
+{
+    "category": "Pop Culture",
+    "question": "Night Crawler, member of the X-Men, has what kind of powers?",
+    "answer": "Can teleport"
+},
+{
+    "category": "Pop Culture",
+    "question": "Which infinity stone was located on Vormir?",
+    "answer": "Soul Stone"
+},
+{
+    "category": "Pop Culture",
+    "question": "Which original Avenger was not in the first few movies?",
+    "answer": "The Wasp"
+},
+{
+    "category": "Pop Culture",
+    "question": "What was Superman’s birth name?",
+    "answer": "Kal-El"
+},
+{
+    "category": "Pop Culture",
+    "question": "What is the name of Batman’s butler?",
+    "answer": "Alfred"
+},
+{
+    "category": "Pop Culture",
+    "question": "Aquaman is from which city under the sea?",
+    "answer": "Atlantis"
+},
+{
+    "category": "Pop Culture",
+    "question": "Who is Green Lantern’s nemesis?",
+    "answer": "Sinestro"
+},
+{
+    "category": "Pop Culture",
+    "question": "What does DC stand for?",
+    "answer": "Detective Comics"
+},
+{
+  "category": "Technology",
+  "question": "Who is often credited with creating the world’s first car?",
+  "answer": "Karl Benz"
+},
+{
+  "category": "Technology",
+  "question": "Which animal can be seen on the Porsche logo?",
+  "answer": "Horse"
+},
+{
+  "category": "Technology",
+  "question": "Which companies are part of the Big Three?",
+  "answer": "General Motors, Fiat Chrysler Automobiles, and Ford Motor Company"
+},
+{
+  "category": "Technology",
+  "question": "Which company owns Bugatti, Lamborghini, Audi, Porsche, and Ducati?",
+  "answer": "Volkswagen"
+},
+{
+  "category": "Technology",
+  "question": "Which auto brand was the first to offer seat belts?",
+  "answer": "Nash Motors"
+},
+{
+  "category": "Technology",
+  "question": "What does BMW stand for (in English)?",
+  "answer": "Bavarian Motor Works"
+},
+{
+  "category": "General",
+  "question": "What or who is the Ford Mustang named after?",
+  "answer": "A fighter plane from WWII"
+},
+{
+  "category": "Technology",
+  "question": "How many parts (screws and bolts included) does the average car have?",
+  "answer": "30,000"
+},
+{
+  "category": "General",
+  "question": "Which car is often called the first muscle car?",
+  "answer": "The Pontiac GTO"
+},
+{
+  "category": "General",
+  "question": "In what year was the Corvette introduced?",
+  "answer": "1953"
+},
+{
+  "category": "Pop Culture",
+  "question": "What is the name of the song that Queen Elsa sings as she builds her ice castle in the movie Frozen?",
+  "answer": "Let It Go"
+},
+{
+  "category": "Pop Culture",
+  "question": "How many films did Sean Connery play James Bond in?",
+  "answer": "Seven"
+},
+{
+  "category": "Pop Culture",
+  "question": "Which Indiana Jones movie was released back in 1984?",
+  "answer": "Indiana Jones and the Temple of Doom"
+},
+{
+  "category": "Pop Culture",
+  "question": "How many Lord of the Rings films are there?",
+  "answer": "Three"
+},
+{
+  "category": "Pop Culture",
+  "question": "What was the name of the actor who played Jack Dawson in Titanic?",
+  "answer": "Leonardo DiCaprio"
+},
+{
+  "category": "Pop Culture",
+  "question": "Which popular TV show featured house Targaryen and Stark?",
+  "answer": "Game of Thrones"
+},
+{
+  "category": "Pop Culture",
+  "question": "What was the name of the family who starred in 7th Heaven?",
+  "answer": "The Camdens"
+},
+{
+  "category": "Pop Culture",
+  "question": "Which cartoon character lives in a pineapple under the sea?",
+  "answer": "Spongebob Squarepants"
+},
+{
+  "category": "Pop Culture",
+  "question": "In what year was the first episode of South Park aired?",
+  "answer": "1997"
+},
+{
+  "category": "Pop Culture",
+  "question": "Who won the Academy Award for Best Actor for his role in the 2020 film 'Joker'?",
+  "answer": "Joaquin Phoenix"
+},
+{
+  "category": "Pop Culture",
+  "question": "In the movie 'Forrest Gump,' what famous phrase does Forrest’s mother say life is like?",
+  "answer": "Life is like a box of chocolates; you never know what you’re gonna get."
+},
+{
+  "category": "Pop Culture",
+  "question": "Which animated film features a character named Simba and includes the song 'Circle of Life'?",
+  "answer": "The Lion King"
+},
+{
+  "category": "Pop Culture",
+  "question": "Who directed the 1994 film 'Pulp Fiction'?",
+  "answer": "Quentin Tarantino"
+},
+{
+  "category": "Pop Culture",
+  "question": "In the movie 'The Shawshank Redemption,' what is the name of the main character played by Tim Robbins?",
+  "answer": "Andy Dufresne"
+},
+{
+  "category": "Pop Culture",
+  "question": "In the movie 'Casablanca,' what famous line does Humphrey Bogart’s character Rick Blaine say to Ilsa Lund, played by Ingrid Bergman?",
+  "answer": "Here’s looking at you, kid."
+},
+{
+  "category": "General",
+  "question": "What is the common name for dried plums?",
+  "answer": "Prunes"
+},
+{
+  "category": "General",
+  "question": "What name does deer meat go by?",
+  "answer": "Venison"
+},
+{
+  "category": "General",
+  "question": "What other name does 'corn' go by?",
+  "answer": "Maize"
+},
+{
+  "category": "General",
+  "question": "What’s the primary ingredient in hummus?",
+  "answer": "Chickpeas"
+},
+{
+  "category": "General",
+  "question": "Which country produces the most coffee in the world?",
+  "answer": "Brazil"
+},
+{
+  "category": "General",
+  "question": "Which country invented tea?",
+  "answer": "China"
+},
+{
+  "category": "General",
+  "question": "Which kind of alcohol is Russia notoriously known for?",
+  "answer": "Vodka"
+},
+{
+  "category": "General",
+  "question": "What is the national dish of Spain?",
+  "answer": "Paella"
+},
+{
+  "category": "General",
+  "question": "Which European nation was said to invent hot dogs?",
+  "answer": "Germany"
+},
+{
+  "category": "General",
+  "question": "Which country is responsible for giving us pizza and pasta?",
+  "answer": "Italy"
+},
+{
+  "category": "General",
+  "question": "What is the main ingredient in the Vietnamese soup pho?",
+  "answer": "Rice noodles"
+},
+{
+  "category": "General",
+  "question": "What is the name of the Italian dessert made with coffee-soaked ladyfingers and mascarpone cheese?",
+  "answer": "Tiramisu"
+},
+{
+  "category": "General",
+  "question": "What is the primary ingredient in the popular Japanese dish tempura?",
+  "answer": "Battered and fried seafood or vegetables"
+},
+{
+  "category": "General",
+  "question": "Which popular soft drink was originally created as a medicine in the 19th century?",
+  "answer": "Coca-Cola"
+},
+{
+  "category": "General",
+  "question": "Which country is famous for its chocolate and is home to brands like Lindt and Toblerone?",
+  "answer": "Switzerland"
+},
+{
+  "category": "Science",
+  "question": "Which organ has four chambers?",
+  "answer": "The heart"
+},
+{
+  "category": "Science",
+  "question": "In which body part can you find the femur?",
+  "answer": "Leg"
+},
+{
+  "category": "Science",
+  "question": "What is your body’s largest organ?",
+  "answer": "The skin"
+},
+{
+  "category": "Science",
+  "question": "What kind of cells are found in the brain?",
+  "answer": "Neurons"
+},
+{
+  "category": "Science",
+  "question": "Which bone are babies born without?",
+  "answer": "Knee cap"
+},
+{
+  "category": "Science",
+  "question": "About how many taste buds does the average human tongue have?",
+  "answer": "10,000"
+},
+{
+  "category": "Science",
+  "question": "What percentage of our bodies is made up of water?",
+  "answer": "60-65%"
+},
+{
+  "category": "Science",
+  "question": "Which element is said to keep bones strong?",
+  "answer": "Calcium"
+},
+{
+  "category": "Science",
+  "question": "What does the acronym AIDS stand for?",
+  "answer": "Acquired Immune Deficiency Syndrome"
+},
+{
+  "category": "Science",
+  "question": "How many times does the heartbeat per day?",
+  "answer": "About 100,000"
+},
+{
+  "category": "Geography",
+  "question": "What is the name of the thin and long country that spans more than half of the western coast of South America?",
+  "answer": "Chile"
+},
+{
+  "category": "Geography",
+  "question": "Which American state is the largest (by area)?",
+  "answer": "Alaska"
+},
+{
+  "category": "Technology",
+  "question": "What technology company was founded in 1993 with the vision that the next wave of computing would be graphics-based? The company took its name from the Latin word for 'envy' and features product families GeForce, Quadro, and Tegra.",
+  "answer": "Nvidia"
+},
+{
+  "category": "Music",
+  "question": "Daniel Powter is a Canadian singer-songwriter that rose to fame as his song spent five weeks atop the Billboard charts in 2005. The song featured prominently in video montages of American Idol contestants who were eliminated from the show. What was Powter's two-word smash hit?",
+  "answer": "Bad Day"
+},
+{
+  "category": "General",
+  "question": "A boy from 'The Adventures of Rocky and Bullwinkle and Friends,' the namesake character of a certain 'Lagoon' comic strip, the battle-hardened World War II M4 tank, and the nutty scientist in 'The Klumps' all share what name?",
+  "answer": "Sherman"
+},
+{
+  "category": "Science",
+  "question": "In logical argument and mathematical proof, a symbol consisting of three dots placed to form an upright triangle is used to represents which word?",
+  "answer": "Therefore"
+},
+{
+  "category": "Geography",
+  "question": "The world capital cities of Vienna, Bratislava, and Budapest all lie along what river, the second-longest in Europe?",
+  "answer": "Danube"
+},
+{
+  "category": "History",
+  "question": "The United Nations General Assembly adopted a historic document (Resolution 217) in Paris at its third session in 1948. The document is regularly abbreviated as UDHR, which stands for what?",
+  "answer": "Universal Declaration of Human Rights"
+},
+{
+  "category": "General",
+  "question": "Which two months of the year are named for mortal men?",
+  "answer": "July and August"
+},
+{
+  "category": "Music",
+  "question": "Who is the only singer to win the Grammy Awards for Album, Record, and Song of the Year twice? Both of the winning albums had titles that were two-digit numbers.",
+  "answer": "Adele"
+},
+{
+  "category": "Technology",
+  "question": "What is the name for a type of rigid airship named for its German inventor that were first flown commercially in 1910 and carried tens of thousands of fare-paying passengers before World War I slowed down the airship business?",
+  "answer": "Zeppelin"
+},
+{
+  "category": "Technology",
+  "question": "What highly sought-after item of the modern age was created anonymously under the pseudonym Satoshi Nakamoto?",
+  "answer": "Bitcoin"
+},
+{
+  "category": "General",
+  "question": "What classic literary villain, described as a 'Machiavellian schemer and manipulator' shares his name with an avian sidekick in the Disney film 'Aladdin?'",
+  "answer": "Iago"
+},
+{
+  "category": "Science",
+  "question": "What is the metric unit, consisting of 10,000 square meters, that is the primary measure of land in most countries?",
+  "answer": "Hectare"
+},
+{
+  "category": "History",
+  "question": "In 2022, the U.S. Treasury minted landmark quarters featuring what 'I Know Why the Caged Bird Sings' author?",
+  "answer": "Maya Angelou"
+},
+{
+  "category": "Pop Culture",
+  "question": "TV producer and writer Adam F. Goldberg cut his teeth on 'Aliens in America' and 'Community' before launching what very guessable autobiographical sitcom based on his Philadelphia childhood?",
+  "answer": "The Goldbergs"
+},
+{
+  "category": "History",
+  "question": "Established by President John F. Kennedy in 1963, Elvis Presley, Babe Ruth, Tiger Woods and Rush Limbaugh received what prestigious medal by President Donald Trump during his presidential term?",
+  "answer": "Presidential Medal of Freedom"
+},
+{
+  "category": "Music",
+  "question": "What word completes the following Santana lyric? This word is also the title of the song. 'You got the kind of loving that can be so ______, yeah. / Gimme your heart, make it real / Or else forget about it.'",
+  "answer": "Smooth"
+},
+{
+  "category": "Geography",
+  "question": "El Prat airport is located in which city on the Mediterranean Sea, which held the 1992 Summer Olympics?",
+  "answer": "Barcelona"
+},
+{
+  "category": "General",
+  "question": "What is the common name of the object that is formerly known as a besom, has a common association with Halloween, and is produced and sold by brands such as Treelen, Libman, and SWOPT?",
+  "answer": "Broom"
+},
+{
+  "category": "Science",
+  "question": "Deglutition is the scientific term for what common bodily function that humans do hundreds of times a day?",
+  "answer": "Swallowing"
+},
+{
+  "category": "General",
+  "question": "What well-known artist famously severed part of Vincent Van Gogh's left ear? Note: although there has been speculation in recent years that it was *actually* Paul Gauguin, we are going to stick with the most commonly-accepted perpetrator by art historians.",
+  "answer": "Vincent Van Gogh"
+},
+{
+  "category": "Pop Culture",
+  "question": "What famed Chicago-based improv theater group served as a career springboard for Steve Carell, Tina Fey, John Candy, and more?",
+  "answer": "Second City"
+},
+{
+  "category": "General",
+  "question": "Although the term was initially coined on the London Stock Exchange in the 18th century for a stockbroker who defaulted on his debts, it's now commonly used to refer to office-holders headed out the door. What is this fowl two-word term?",
+  "answer": "Lame duck"
+},
+{
+  "category": "History",
+  "question": "According to an urban legend, what type of animal caused the Great Chicago Fire of 1871 by knocking over a lantern?",
+  "answer": "Cow"
+},
+{
+  "category": "Geography",
+  "question": "A lion holding a sword appears on the logo of Ceylon Tea as well as the flag of what teardrop-shaped Indian Ocean country that exports the product?",
+  "answer": "Sri Lanka"
+},
+{
+  "category": "Pop Culture",
+  "question": "Throughout the Harry Potter novels, Harry is mentioned by name 18,956 times. Which character is the second most mentioned coming in at a total of 6,464?",
+  "answer": "Ron Weasley"
+},
+{
+  "category": "General",
+  "question": "What two one-syllable rhyming words summarize the following phrase? To handily defeat the protagonist of 'To Kill a Mockingbird.'",
+  "answer": "Rout Scout"
+},
+{
+  "category": "History",
+  "question": "Name the only person to be a United States President and Supreme Court Justice. He was even Chief Justice! He was the 27th president and the tenth chief justice.",
+  "answer": "Taft"
+},
+{
+  "category": "Music",
+  "question": "What 'G' instrument is technically a metallophone because its set of tuned keys are made of metal plates or tubes rather than the wood of a xylophone? The instrument was featured famously in many Rush songs such as 'The Spirit of Radio' and 'Closer to the Heart.'",
+  "answer": "Glockenspiel"
+},
+{
+  "category": "Technology",
+  "question": "One of the world's largest construction projects, Al Maktoum AKA Dubai World Central is what kind of go-go piece of infrastructure?",
+  "answer": "Airport"
+},
+{
+  "category": "Pop Culture",
+  "question": "Played by Frank Sinatra in a film version, Nathan Detroit is a gambling boss in what classic 1950s Broadway musical?",
+  "answer": "Guys and Dolls"
+},
+{
+  "category": "General",
+  "question": "In what country was Haagen-Dazs ice cream developed?",
+  "answer": "The United States"
+},
+{
+  "category": "General",
+  "question": "What famed children's author said the following? 'I answer all my children's letters 'sometimes very hastily' but this one I lingered over. I sent him a card and I drew a picture of a Wild Thing on it. I wrote, 'Dear Jim: I loved your card.' Then I got a letter back from his mother and she said: 'Jim loved your card so much he ate it.' That to me was one of the highest compliments I've ever received.'",
+  "answer": "Maurice Sendak"
+},
+{
+  "category": "Geography",
+  "question": "Which country is both an island and a continent?",
+  "answer": "Australia"
+},
+{
+  "category": "Geography",
+  "question": "What is the capital city of Brazil?",
+  "answer": "Brasília"
+},
+{
+  "category": "Geography",
+  "question": "Which African country is known as the 'Land of a Thousand Hills'?",
+  "answer": "Rwanda"
+},
+{
+  "category": "Geography",
+  "question": "What is the largest lake in Africa?",
+  "answer": "Lake Victoria"
+},
+{
+  "category": "Geography",
+  "question": "What is the longest river in the world?",
+  "answer": "Nile River"
+},
+{
+  "category": "Geography",
+  "question": "What is the highest mountain in North America?",
+  "answer": "Mount McKinley/Denali"
+},
+{
+  "category": "Geography",
+  "question": "Which European country is home to the fjords?",
+  "answer": "Norway"
+},
+{
+  "category": "Geography",
+  "question": "Which city is located at the mouth of the Amazon River?",
+  "answer": "Belém"
+},
+{
+  "category": "Geography",
+  "question": "What is the smallest country in the world?",
+  "answer": "Vatican City"
+},
+{
+  "category": "Literature",
+  "question": "Who wrote the novel 'Pride and Prejudice'?",
+  "answer": "Jane Austen"
+},
+{
+  "category": "Literature",
+  "question": "In which Shakespeare play does the character Ophelia appear?",
+  "answer": "Hamlet"
+},
+{
+  "category": "Literature",
+  "question": "Who wrote the dystopian novel '1984'?",
+  "answer": "George Orwell"
+},
+{
+  "category": "Literature",
+  "question": "What is the opening line of Charles Dickens' 'A Tale of Two Cities'?",
+  "answer": "It was the best of times, it was the worst of times."
+},
+{
+  "category": "Literature",
+  "question": "Which novel features the character Atticus Finch?",
+  "answer": "To Kill a Mockingbird"
+},
+{
+  "category": "Literature",
+  "question": "Who wrote the novel 'The Great Gatsby'?",
+  "answer": "F. Scott Fitzgerald"
+},
+{
+  "category": "Literature",
+  "question": "In J.R.R. Tolkien's 'The Lord of the Rings,' what is the name of the wizard?",
+  "answer": "Gandalf"
+},
+{
+  "category": "Literature",
+  "question": "Which American author wrote 'The Catcher in the Rye'?",
+  "answer": "J.D. Salinger"
+},
+{
+  "category": "Literature",
+  "question": "Who wrote the play 'Romeo and Juliet'?",
+  "answer": "William Shakespeare"
+},
+{
+  "category": "Literature",
+  "question": "What is the full title of the first Harry Potter book?",
+  "answer": "Harry Potter and the Philosopher's Stone"
+},
+{
+  "category": "Geography",
+  "question": "Along with Spanish, Guaraní is the official language of which landlocked South American country?",
+  "answer": "Paraguay"
+},
+{
+  "category": "Geography",
+  "question": "Plovdiv is the second largest city and cultural capital of which country bordered by the Black Sea?",
+  "answer": "Bulgaria"
+},
+{
+  "category": "Geography",
+  "question": "What city, planned and built throughout the 1980s, became the capital of Nigeria in 1991, replacing the longtime capital of Lagos?",
+  "answer": "Abuja"
+},
+{
+  "category": "Geography",
+  "question": "Podgorica is the largest and capital city of which Balkan country whose name translates into English as 'Black Mountain?'",
+  "answer": "Montenegro"
+},
+{
+  "category": "Geography",
+  "question": "Mount Teide, the highest point in Spain, is a volcano on which one of the Canary Islands, the most visited island in the archipelago?",
+  "answer": "Tenerife"
+},
+{
+  "category": "Geography",
+  "question": "Lake Tana in Ethiopia is the source of what colorfully-named river that runs for approximately 1,450 km through Ethiopia and Sudan?",
+  "answer": "Blue Nile"
+},
+{
+  "category": "Geography",
+  "question": "One of South Africa's three capital cities is in the northern part of Gauteng province, straddles the Apies River, and contains the foothills of the Magaliesberg mountains. What city is this?",
+  "answer": "Pretoria"
+},
+{
+  "category": "Geography",
+  "question": "Named the second-largest volcanic eruption of the 20th century by the U.S. Geological Survey, the sulfuric acidic ash emitted from the 1991 eruption of what volcano in the Philippines caused $700 million in damage and caused global temperatures to drop by more than 0.9 degrees Fahrenheit?",
+  "answer": "Mount Pinatubo"
+},
+{
+  "category": "Geography",
+  "question": "Physical geography—which includes many subdisciplines like climatology, glaciology, and oceanography—is technically known by which '-ography' term?",
+  "answer": "Physiography"
+},
+{
+  "category": "Geography",
+  "question": "Located on the Yucatan Peninsula, what Mexican state sounds like it might contain Australian mammals but is actually named for a lawyer who fought for Mexican independence?",
+  "answer": "Quintana Roo"
+},
+{
+  "category": "Geography",
+  "question": "What two-word African county and former French protectorate has official capital at Yamoussoukro, and financial capital with government offices at Abidjan?",
+  "answer": "Ivory Coast"
+},
+{
+  "category": "Geography",
+  "question": "The city of Grand Rapids, Michigan is served by an airport named after what U.S. President?",
+  "answer": "Gerald Ford"
+},
+{
+  "category": "Geography",
+  "question": "No, not Berlin: in 2021, Costa Rica hosted the sixth ministerial meeting of a socioeconomic summit named for what B-word city that served as the capital of West Germany?",
+  "answer": "Bonn"
+},
+{
+  "category": "Geography",
+  "question": "In which gulf off Africa will you find Null Island which, at 0 degrees lat/long, is the meeting place of the prime meridian and the equator?",
+  "answer": "Guinea"
+},
+{
+  "category": "Geography",
+  "question": "The highest volcano outside of South America also doubles as its home continent's highest mountain. In what country is this 19,000-foot peak found?",
+  "answer": "Tanzania"
+},
+{
+  "category": "History",
+  "question": "As per the terms of the 1850 Clayton-Bulwer Treaty, the United States and the United Kingdom agreed to halt colonization efforts in what region?",
+  "answer": "Central America"
+},
+{
+  "category": "Geography",
+  "question": "What Canadian province's southern border lies adjacent to both Idaho and Montana?",
+  "answer": "British Columbia"
+},
+{
+  "category": "Geography",
+  "question": "Located at the junction of the Bay of Bengal and the Andaman Sea, the Andaman and Nicobar Islands are an administrative division of which country?",
+  "answer": "India"
+},
+{
+  "category": "Geography",
+  "question": "Mallorca and Menorca are the two largest of Spain's Balearic Islands. The third biggest is what island known for its nightlife?",
+  "answer": "Ibiza"
+},
+{
+  "category": "General",
+  "question": "First designed by Antoni Gaudí and set to be finished around 2026, what is the name of the Barcelonian building that has been under slow construction since 1882?",
+  "answer": "Sagrada Família"
+},
+{
+  "category": "Geography",
+  "question": "The Kingdom of Bahrain, an island country in Western Asia, is an archipelago located on what gulf?",
+  "answer": "Persian Gulf"
+},
+{
+  "category": "Literature",
+  "question": "The town of Pepin, Wisconsin is home to a museum honoring what author of the Little House books, most famously 'Little House on the Prairie'?",
+  "answer": "Laura Ingalls Wilder"
+},
+{
+  "category": "Geography",
+  "question": "What Oklahoma city in Payne County is considered the Pipeline Crossroads of the World due to its status as a price settlement point for the New York Mercantile Exchange?",
+  "answer": "Cushing"
+},
+{
+  "category": "General",
+  "question": "According to an urban legend, what type of animal caused the Great Chicago Fire of 1871 by knocking over a lantern?",
+  "answer": "Cow"
+},
+{
+  "category": "Geography",
+  "question": "El Prat airport is located in which city on the Mediterranean Sea, which held the 1992 Summer Olympics?",
+  "answer": "Barcelona"
+},
+{
+  "category": "Geography",
+  "question": "In what European capital city would you find the landmark known as the Spanish Steps?",
+  "answer": "Rome"
+},
+{
+  "category": "History",
+  "question": "What countries made up the original Axis powers in World War II?",
+  "answer": "Germany, Italy, and Japan"
+},
+{
+  "category": "Geography",
+  "question": "Which country do cities of Perth, Adelaide & Brisbane belong to?",
+  "answer": "Australia"
+},
+{
+  "category": "General",
+  "question": "What geometric shape is generally used for stop signs?",
+  "answer": "Octagon"
+},
+{
+  "category": "Science",
+  "question": "What is 'cynophobia'?",
+  "answer": "Fear of dogs"
+},
+{
+  "category": "General",
+  "question": "What punctuation mark ends an imperative sentence?",
+  "answer": "A period or exclamation point"
+},
+{
+  "category": "History",
+  "question": "Who named the Pacific Ocean?",
+  "answer": "Ferdinand Magellan"
+},
+{
+  "category": "General",
+  "question": "How many languages are written from right to left?",
+  "answer": "12"
+},
+{
+  "category": "General",
+  "question": "How many countries still have Shilling as currency? Bonus point: Which countries?",
+  "answer": "Four, Kenya, Uganda, Tanzania, and Somalia"
+},
+{
+  "category": "Technology",
+  "question": "What is the name of the man who launched eBay back in 1995?",
+  "answer": "Pierre Omidyar"
+},
+{
+  "category": "Technology",
+  "question": "What is the name of the biggest technology company in South Korea?",
+  "answer": "Samsung"
+},
+{
+  "category": "General",
+  "question": "Which animal can be seen on the Porsche logo?",
+  "answer": "Horse"
+},
+{
+  "category": "History",
+  "question": "Which monarch officially made Valentine's Day a holiday in 1537?",
+  "answer": "Henry VIII"
+},
+{
+  "category": "Science",
+  "question": "Who was the first woman to win a Nobel Prize (in 1903)?",
+  "answer": "Marie Curie"
+},
+{
+  "category": "General",
+  "question": "The first dictionary was written by?",
+  "answer": "Robert Cawdrey"
+},
+{
+  "category": "General",
+  "question": "Worship of Krishna is observed by which Religious Faith?",
+  "answer": "Hinduism"
+},
+{
+  "category": "General",
+  "question": "Shinto is the native religion in which country?",
+  "answer": "Japan"
+},
+{
+  "category": "General",
+  "question": "In Japan, the word Mikado originally referred to what?",
+  "answer": "Emperor"
+},
+{
+  "category": "General",
+  "question": "In which European capital is there a statue of a small boy called the Mannekin Pis?",
+  "answer": "Brussels"
+},
+{
+  "category": "General",
+  "question": "Legal agreements are often divided into smaller parts called what?",
+  "answer": "Clauses"
+},
+{
+  "category": "General",
+  "question": "What is the name given to the practice of favoring your own relatives?",
+  "answer": "Nepotism"
+},
+{
+  "category": "General",
+  "question": "Which part of London hosts an annual flower show each Spring?",
+  "answer": "Chelsea"
+},
+{
+  "category": "General",
+  "question": "Matador is a person who takes part in which activity?",
+  "answer": "Bullfighting"
+},
+{
+  "category": "General",
+  "question": "Which glass shape would you see outside the Louvre in Paris?",
+  "answer": "Pyramid"
+},
+{
+  "category": "General",
+  "question": "What color is the children's storybook character Mr. Happy?",
+  "answer": "Yellow"
+},
+{
+  "category": "General",
+  "question": "A didgeridoo is a traditional instrument from which country?",
+  "answer": "Australia"
+},
+{
+  "category": "Literature",
+  "question": "Who wrote the fantasy Western series 'The Dark Tower'?",
+  "answer": "Stephen King"
+},
+{
+  "category": "General",
+  "question": "In the international radio alphabet, which word represents M?",
+  "answer": "Mike"
+},
+{
+  "category": "General",
+  "question": "The traditional Hindu festival of colors has which name?",
+  "answer": "Holi"
+},
+{
+  "category": "General",
+  "question": "Uncle Sam is the personification of which country?",
+  "answer": "United States"
+},
+{
+  "category": "General",
+  "question": "Queen Elizabeth II is linked with which breed of dog?",
+  "answer": "Corgi"
+},
+{
+  "category": "General",
+  "question": "Highland Games are a cultural tradition of which country?",
+  "answer": "Scotland"
+},
+{
+  "category": "General",
+  "question": "Six white kangaroos are said to pull Santa's sleigh in which country?",
+  "answer": "Australia"
+},
+{
+  "category": "History",
+  "question": "What was the title given to the eldest son of the French king?",
+  "answer": "Dauphin"
+},
+{
+  "category": "General",
+  "question": "The flowers on the St John's Wort are which color?",
+  "answer": "Yellow"
+},
+{
+  "category": "General",
+  "question": "Halloween was traditionally a festival to mark the end of what?",
+  "answer": "Summer"
+},
+{
+  "category": "General",
+  "question": "Which Christmas-related gift is another name for the plant Sweet Cicely?",
+  "answer": "Myrrh"
+},
+{
+  "category": "General",
+  "question": "Mischa, the mascot for the 1980 Olympics, was which creature?",
+  "answer": "Bear"
+},
+{
+  "category": "General",
+  "question": "Someone referred to as a 'kiwi' comes from which country?",
+  "answer": "New Zealand"
+},
+{
+  "category": "Science",
+  "question": "What's the fastest land animal?",
+  "answer": "Cheetah"
+},
+{
+  "category": "Science",
+  "question": "Car exhaust fumes contain mainly what poisonous gas?",
+  "answer": "Carbon Monoxide"
+},
+{
+  "category": "Science",
+  "question": "What does a camel store in its hump?",
+  "answer": "Fat"
+},
+{
+  "category": "Science",
+  "question": "Otters eat mainly which food?",
+  "answer": "Fish"
+},
+{
+  "category": "Science",
+  "question": "Pearls are made by which sea creature?",
+  "answer": "Oyster"
+},
+{
+  "category": "Science",
+  "question": "What type of dog is 'Handsome Dan' of Yale University?",
+  "answer": "Bulldog"
+},
+{
+  "category": "Science",
+  "question": "Which long-haired cow-like animal is often kept by people living in the Himalayas?",
+  "answer": "Yak"
+},
+{
+  "category": "Science",
+  "question": "What are the claws of a bird of prey called?",
+  "answer": "Talons"
+},
+{
+  "category": "Science",
+  "question": "Which animal can go before glove, hound, and trot?",
+  "answer": "Fox"
+},
+{
+  "category": "Science",
+  "question": "What is the largest of the apes?",
+  "answer": "Gorilla"
+},
+{
+  "category": "Science",
+  "question": "What bird wouldn't you say boo to if you're scared of everything?",
+  "answer": "Goose"
+},
+{
+  "category": "Science",
+  "question": "Which creatures would you expect to find in an apiary?",
+  "answer": "Bees"
+},
+{
+  "category": "Science",
+  "question": "Aberdeen Angus and Charolais are breeds of which animal?",
+  "answer": "Cow"
+},
+{
+  "category": "Science",
+  "question": "Which animals build nests called a drey?",
+  "answer": "Squirrel"
+},
+{
+  "category": "Science",
+  "question": "Cardinals are birds of which color?",
+  "answer": "Red"
+},
+{
+  "category": "Science",
+  "question": "Bengal and Siberian are subspecies of which animal?",
+  "answer": "Tiger"
+},
+{
+  "category": "Science",
+  "question": "Where do sloths live?",
+  "answer": "Trees"
+}
+]
