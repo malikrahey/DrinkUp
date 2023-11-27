@@ -75,44 +75,52 @@ const TriviaScreen = ({navigation}) => {
 
   switch (currentPrompt?.category) {
     case "Geography":
-      bgColor = 'bg-green-400';
+      bgColor = 'bg-yellow-400';
       break;
     case "History":
-      bgColor = 'bg-purple-400';
+      bgColor = 'bg-amber-400';
       break;
     case "Science":
-      bgColor = 'bg-blue-400'
+      bgColor = 'bg-green-400'
       break;
     case "Literature":
-      bgColor = 'bg-yellow-400'
+      bgColor = 'bg-blue-400'
       break;
     case "Sports":
-      bgColor = 'bg-red-200'
+      bgColor = 'bg-orange-400'
       break;
     case "Technology":
       bgColor = 'bg-blue-200'
       break;
+    case "Pop Culture":
+      bgColor = 'bg-pink-400'
+      break;
+    case "Music":
+      bgColor = 'bg-teal-400'
+      break;
   }
 
   return (
-    <View>
+    <SafeAreaView  className={`${bgColor}`} style={styles.AndroidSafeArea}>
       {loading ? (
        <>
        </> 
       ) : (
-      <TouchableOpacity onPress={handleNext} className={`${bgColor} flex items-center h-full justify-center rounded-b-lg`}>
+      <TouchableOpacity onPress={handleNext} className={`${bgColor} flex items-center h-full justify-center rounded-b-xl`}>
         <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
         <TouchableOpacity className="text-center" onPress={handleNext}>
           <Text className='text-4xl font-bold text-center'>{currentPrompt?.category}</Text> 
           
           {step > 0 && (
-            <Text className="text-2xl m-4 font-semibold">
-              {currentPrompt?.question}
-            </Text>
+            <View>
+              <Text className="text-3xl m-4 font-semibold">
+                {currentPrompt?.question}
+              </Text>
+            </View>
           )}
 
           {step > 1 && (
-            <Text className="text-2xl m-4 font-semibold text-center">
+            <Text className="text-neutral-800 text-3xl m-4 font-semibold text-center">
               {currentPrompt?.answer}
             </Text>
           )}
@@ -122,7 +130,7 @@ const TriviaScreen = ({navigation}) => {
       </TouchableOpacity>
       )}
       
-    </View>
+    </SafeAreaView>
   )
 }
 

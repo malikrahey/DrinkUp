@@ -85,7 +85,7 @@ const GameScreen = ({navigation}) => {
        <>
        </> 
       ) : (
-      <TouchableOpacity onPress={handleNext} className={`${bgColor} flex items-center h-full justify-center rounded-b-lg`}>
+      <TouchableOpacity onPress={handleNext} className={`${bgColor} flex items-center h-full justify-center rounded-b-xl`}>
         <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
         <TouchableOpacity onPress={handleNext}>
           {currentPrompt?.type !== 'general' ? (
