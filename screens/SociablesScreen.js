@@ -1,5 +1,5 @@
-import { View, Text, Image, ScrollView, Icon} from 'react-native'
-import React, { useLayoutEffect, useState} from 'react'
+import { View, Text, Image, ScrollView, Icon } from 'react-native'
+import React, { useLayoutEffect, useState } from 'react'
 import { SafeAreaView, Button } from 'react-native'
 import styles from '../styles'
 import { TouchableOpacity } from 'react-native'
@@ -26,7 +26,7 @@ const cards = [
     "value": "2",
     "title": "Give Two",
     "prompt": "Give a player two drinks, or two players one drink."
-  }, 
+  },
   {
     "value": "3",
     "title": "Take Two",
@@ -46,7 +46,7 @@ const cards = [
     "value": "6",
     "title": "Question",
     "prompt": "Ask someone around the table a question. If they refuse to answer then they need to finish their drink. "
-  }, 
+  },
   {
     "value": "7",
     "title": "Thumb Card",
@@ -87,21 +87,21 @@ const cards = [
 const randomizeDeck = (deck) => {
   const list = Array.from({ length: deck.length }, (_, i) => i);
 
-  for (let i = list.length-1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i+1));
+  for (let i = list.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
     [deck[i], deck[j]] = [deck[j], deck[i]]
   }
 
   return deck;
 }
 
-const CardScreen = ({navigation}) => {
+const CardScreen = ({ navigation }) => {
 
   useLayoutEffect(() => {
     navigation.setOptions({
       headerShown: false
     })
- 
+
     ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
   }, [])
 
@@ -119,7 +119,7 @@ const CardScreen = ({navigation}) => {
     const newDeck = [];
     suits.forEach(suit => {
       cards.forEach(card => {
-        const deckCard = {...card}
+        const deckCard = { ...card }
         deckCard["suit"] = suit;
         newDeck.push(deckCard);
       }
@@ -133,7 +133,7 @@ const CardScreen = ({navigation}) => {
     console.log('done loading');
   }, [])
 
-    
+
   return (
     <SafeAreaView className="bg-blue-400" style={styles.AndroidSafeArea}>
 
@@ -156,9 +156,9 @@ const CardScreen = ({navigation}) => {
   )
 }
 
-const Card = ({value, suit, prompt, title}) => {
+const Card = ({ value, suit, prompt, title }) => {
 
-  const textColor = suit === "♥" || suit ==="♦" ? "text-red-400" : "";
+  const textColor = suit === "♥" || suit === "♦" ? "text-red-400" : "";
 
   return (
     <View className="bg-white h-[520px] justify-between rounded-xl p-2">

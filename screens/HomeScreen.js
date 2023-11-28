@@ -1,12 +1,12 @@
-import { View, Text, Image, ScrollView, Icon} from 'react-native'
-import React, { useLayoutEffect, useState} from 'react'
+import { View, Text, Image, ScrollView, Icon } from 'react-native'
+import React, { useLayoutEffect, useState } from 'react'
 import { SafeAreaView } from 'react-native'
 import styles from '../styles'
 import { TouchableOpacity } from 'react-native'
 import * as ScreenOrientation from 'expo-screen-orientation'
 import Logo from '../assets/logo.svg';
 
-const HomeScreen = ({navigation}) => {
+const HomeScreen = ({ navigation }) => {
 
   const [step, setStep] = useState(0);
   const [names, setNames] = useState(['', '', '']); // Initialize with 3 empty strings
@@ -19,11 +19,11 @@ const HomeScreen = ({navigation}) => {
     navigation.setOptions({
       headerShown: false
     })
-    
+
     try {
       changeScreenOrientation();
-    } catch {}
-    
+    } catch { }
+
   }, [])
 
   const handleNameChange = (text, index) => {
@@ -49,40 +49,40 @@ const HomeScreen = ({navigation}) => {
 
   return (
     <SafeAreaView className="bg-neutral-100" style={styles.AndroidSafeArea}>
-    
+
       <ScrollView>
 
-      <View className="flex items-center justify-center h-screen">
-        
-      <Logo width={'95%'} height={'10%'}/>
+        <View className="flex items-center justify-center h-screen">
 
-        <View className="space-y-2 p-8">
-          <TouchableOpacity onPress={() => navigation.navigate("Game")} className="w-64 h-16 justify-center rounded-lg bg-white">
-            <Text className="text-center font-bold text-xl">Around The Room</Text>
-          </TouchableOpacity>
+          <Logo width={'95%'} height={'10%'} />
 
-          <TouchableOpacity disabled className="hidden w-64 h-16 justify-center rounded-lg bg-white">
-            <Text className="text-center font-bold text-xl">By Name</Text>
-          </TouchableOpacity>
-          <TouchableOpacity disabled className="hidden w-64 h-16 justify-center rounded-lg bg-white">
-            <Text className="text-center font-bold text-xl">Create Custom Prompts</Text>
-          </TouchableOpacity>
+          <View className="space-y-2 p-8">
+            <TouchableOpacity onPress={() => navigation.navigate("Game")} className="w-64 h-16 justify-center rounded-lg bg-white">
+              <Text className="text-center font-bold text-xl">Around The Room</Text>
+            </TouchableOpacity>
 
-          <TouchableOpacity onPress={() => navigation.navigate("Sociables")} className="w-64 h-16 justify-center rounded-lg bg-white">
-            <Text className="text-center font-bold text-xl">Sociables</Text>
-          </TouchableOpacity>
+            <TouchableOpacity disabled className="hidden w-64 h-16 justify-center rounded-lg bg-white">
+              <Text className="text-center font-bold text-xl">By Name</Text>
+            </TouchableOpacity>
+            <TouchableOpacity disabled className="hidden w-64 h-16 justify-center rounded-lg bg-white">
+              <Text className="text-center font-bold text-xl">Create Custom Prompts</Text>
+            </TouchableOpacity>
 
-          <TouchableOpacity onPress={() => navigation.navigate("Trivia")} className="w-64 h-16 justify-center rounded-lg bg-white">
-            <Text className="text-center font-bold text-xl">Trivia</Text>
-          </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate("Sociables")} className="w-64 h-16 justify-center rounded-lg bg-white">
+              <Text className="text-center font-bold text-xl">Sociables</Text>
+            </TouchableOpacity>
 
-          <TouchableOpacity onPress={() => navigation.navigate("Timer")} className="w-64 h-16 justify-center rounded-lg bg-white">
-            <Text className="text-center font-bold text-xl">Power Hour</Text>
-          </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate("Trivia")} className="w-64 h-16 justify-center rounded-lg bg-white">
+              <Text className="text-center font-bold text-xl">Trivia</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity onPress={() => navigation.navigate("Timer")} className="w-64 h-16 justify-center rounded-lg bg-white">
+              <Text className="text-center font-bold text-xl">Power Hour</Text>
+            </TouchableOpacity>
+
+          </View>
 
         </View>
-        
-      </View>
 
       </ScrollView>
 

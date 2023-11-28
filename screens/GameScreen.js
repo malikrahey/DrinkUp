@@ -11,22 +11,22 @@ import { AntDesign } from '@expo/vector-icons';
 const randomizeIndexList = (maxIndex) => {
   const list = Array.from({ length: maxIndex }, (_, i) => i);
 
-  for (let i = list.length-1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i+1));
+  for (let i = list.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
     [list[i], list[j]] = [list[j], list[i]]
   }
 
   return list;
 }
 
-const GameScreen = ({navigation}) => {
+const GameScreen = ({ navigation }) => {
 
   const [currentPrompt, setCurrentPrompt] = useState(prompts[0]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [indexList, setIndexList] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  
+
   let bgColor = 'bg-white';
   let textColor = '';
 
@@ -34,7 +34,7 @@ const GameScreen = ({navigation}) => {
     navigation.setOptions({
       headerShown: false,
     })
-    
+
     ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE);
 
   }, [])
@@ -48,7 +48,7 @@ const GameScreen = ({navigation}) => {
   }, [])
 
   const handleNext = () => {
-    const nextIndex = currentIndex+1;
+    const nextIndex = currentIndex + 1;
     if (nextIndex >= prompts.length) {
       ScreenOrientation.unlockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
       navigation.navigate("Home")
@@ -82,22 +82,22 @@ const GameScreen = ({navigation}) => {
   return (
     <SafeAreaView style={styles.AndroidSafeArea}>
       {loading ? (
-       <>
-       </> 
+        <>
+        </>
       ) : (
-      <TouchableOpacity onPress={handleNext} className={`${bgColor} flex items-center h-full justify-center rounded-b-xl`}>
-        <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
-        <TouchableOpacity onPress={handleNext}>
-          {currentPrompt?.type !== 'general' ? (
-           <Text className='text-4xl font-bold text-center'>{currentPrompt?.title}</Text> 
-          ) : null}
-          <Text className="text-2xl m-4 font-semibold">
-            {currentPrompt?.prompt}
-          </Text>
+        <TouchableOpacity onPress={handleNext} className={`${bgColor} flex items-center h-full justify-center rounded-b-xl`}>
+          <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
+          <TouchableOpacity onPress={handleNext}>
+            {currentPrompt?.type !== 'general' ? (
+              <Text className='text-4xl font-bold text-center'>{currentPrompt?.title}</Text>
+            ) : null}
+            <Text className="text-2xl m-4 font-semibold">
+              {currentPrompt?.prompt}
+            </Text>
+          </TouchableOpacity>
         </TouchableOpacity>
-      </TouchableOpacity>
       )}
-      
+
     </SafeAreaView>
   )
 }
