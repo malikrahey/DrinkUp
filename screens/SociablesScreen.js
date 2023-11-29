@@ -131,6 +131,12 @@ const CardScreen = ({ navigation }) => {
     setLoading(false);
     setDeck(shuffledDeck);
     console.log('done loading');
+    newDeck.push(newDeck[0]);
+    newDeck[0].suit = "";
+    newDeck[0].value = "";
+    newDeck[0].title = "Instructions";
+    newDeck[0].prompt = "Go around the room with each player swiping to reveal a new card, then the player has to do what the card says. Before you start playing get an empty cup if you get the fourth one you have to drink the King's Cup!";
+    console.log(newDeck.length);
   }, [])
 
 
