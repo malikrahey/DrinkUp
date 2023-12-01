@@ -1643,5 +1643,155 @@
   "category": "History",
   "question": "In which Libyan city was the American diplomatic compound attacked in September 2012?",
   "answer": "Benghazi"
+},
+{
+  "category": "History",
+  "question": "Which ancient wonder of the world was located in present-day Iraq?",
+  "answer": "Hanging Gardens of Babylon"
+},
+{
+  "category": "Science",
+  "question": "What is the phenomenon where light is both a wave and a particle?",
+  "answer": "Wave-particle duality"
+},
+{
+  "category": "Geography",
+  "question": "What is the name of the strait that separates Asia from North America?",
+  "answer": "Bering Strait"
+},
+{
+  "category": "Music",
+  "question": "Who composed the opera 'The Marriage of Figaro'?",
+  "answer": "Wolfgang Amadeus Mozart"
+},
+{
+  "category": "Sports",
+  "question": "Which boxer held the record for the longest unbeaten streak in professional boxing?",
+  "answer": "Rocky Marciano"
+},
+{
+  "category": "History",
+  "question": "Which ancient civilization is credited with inventing the first writing system known as cuneiform?",
+  "answer": "Sumerians"
+},
+{
+  "category": "Science",
+  "question": "What is the smallest unit of measurement in computer data?",
+  "answer": "Bit"
+},
+{
+  "category": "Geography",
+  "question": "What is the capital city of Bhutan?",
+  "answer": "Thimphu"
+},
+{
+  "category": "Music",
+  "question": "Who composed the opera 'The Marriage of Figaro'?",
+  "answer": "Wolfgang Amadeus Mozart"
+},
+{
+  "category": "Sports",
+  "question": "Which country has won the most Rugby Union World Cups?",
+  "answer": "New Zealand"
+},
+{
+  "category": "History",
+  "question": "Who was the first Roman emperor to convert to Christianity?",
+  "answer": "Constantine the Great"
+},
+{
+  "category": "Science",
+  "question": "What is the name for the smallest particle of an element that retains its chemical properties?",
+  "answer": "Atom"
+},
+{
+  "category": "Geography",
+  "question": "Which African country has the most pyramids?",
+  "answer": "Sudan (specifically, the ancient Kingdom of Kush)"
+},
+{
+  "category": "Pop Culture",
+  "question": "Who wrote the novel 'The Great Gatsby'?",
+  "answer": "F. Scott Fitzgerald"
+},
+{
+  "category": "Sports",
+  "question": "Which golfer has won the most major championships in men's golf?",
+  "answer": "Jack Nicklaus"
+},
+{
+  "category": "History",
+  "question": "Who was the first female pharaoh of ancient Egypt?",
+  "answer": "Hatshepsut"
+},
+{
+  "category": "Science",
+  "question": "What is the process by which an organism develops from an egg to an adult?",
+  "answer": "Metamorphosis"
+},
+{
+  "category": "Geography",
+  "question": "What is the only sea without an outlet to the oceans?",
+  "answer": "The Dead Sea"
+},
+{
+  "category": "Music",
+  "question": "Who composed the famous opera 'Carmen'?",
+  "answer": "Georges Bizet"
+},
+{
+  "category": "Sports",
+  "question": "Who is the youngest Formula 1 World Drivers' Champion?",
+  "answer": "Sebastian Vettel"
+},
+{
+  "category": "History",
+  "question": "Who founded the Mongol Empire in the 13th century?",
+  "answer": "Genghis Khan"
+},
+{
+  "category": "Science",
+  "question": "What is the phenomenon where an object's apparent frequency changes due to motion?",
+  "answer": "Doppler effect"
+},
+{
+  "category": "Geography",
+  "question": "What is the largest archipelago in the world by area?",
+  "answer": "Indonesia"
+},
+{
+  "category": "Pop Culture",
+  "question": "Who directed the movie 'Apocalypse Now'?",
+  "answer": "Francis Ford Coppola"
+},
+{
+  "category": "Sports",
+  "question": "Which country has won the most Cricket World Cups?",
+  "answer": "Australia"
+},
+{
+  "category": "History",
+  "question": "Which Roman general is known for crossing the Alps with elephants?",
+  "answer": "Hannibal Barca"
+},
+{
+  "category": "Science",
+  "question": "What is the study of earthquakes called?",
+  "answer": "Seismology"
+},
+{
+  "category": "Geography",
+  "question": "What is the deepest trench in the world's oceans?",
+  "answer": "Mariana Trench"
+},
+{
+  "category": "Music",
+  "question": "Who composed the famous opera 'Carmen'?",
+  "answer": "Georges Bizet"
+},
+{
+  "category": "Sports",
+  "question": "Who holds the record for the most goals scored in a single FIFA World Cup tournament?",
+  "answer": "Just Fontaine"
 }
 ]
