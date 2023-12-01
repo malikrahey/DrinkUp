@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native'
+import { View, Text, ScrollView } from 'react-native'
 import React, { useEffect, useLayoutEffect, useState } from 'react'
 import { SafeAreaView } from 'react-native';
 import styles from '../styles';
@@ -94,6 +94,7 @@ const TimerScreen = ({ navigation }) => {
   return (
 
     <SafeAreaView className="bg-neutral-100" style={styles.AndroidSafeArea}>
+      <ScrollView>
 
       <View className="items-center py-20 h-screen">
         <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
@@ -132,6 +133,7 @@ const TimerScreen = ({ navigation }) => {
           {renderTime}
         </CountdownCircleTimer>
       </View>
+      </ScrollView>
     </SafeAreaView>
   )
 }
