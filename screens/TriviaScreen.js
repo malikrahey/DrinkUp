@@ -100,12 +100,13 @@ const TriviaScreen = ({ navigation }) => {
 
   return (
     <SafeAreaView className={`${bgColor}`} style={styles.AndroidSafeArea}>
+    <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
+
       {loading ? (
         <>
         </>
       ) : (
         <TouchableOpacity onPress={handleNext} className={`${bgColor} flex items-center h-full justify-center rounded-b-xl`}>
-          <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
           <TouchableOpacity className="text-center" onPress={handleNext}>
             <Text className='text-4xl font-bold text-center'>{currentPrompt?.category}</Text>
 
