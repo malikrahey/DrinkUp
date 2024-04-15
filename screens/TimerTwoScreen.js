@@ -9,7 +9,7 @@ import { Audio } from 'expo-av';
 import { render } from 'react-dom/cjs/react-dom.production.min';
 import { AntDesign } from '@expo/vector-icons';
 
-const TimerScreen = ({ navigation }) => {
+const TimerTwoScreen = ({ navigation }) => {
 
   const [loading, setLoading] = useState(true);
   const [sound, setSound] = useState();
@@ -101,11 +101,11 @@ const TimerScreen = ({ navigation }) => {
 
       <View className="items-center py-20 h-screen">
         <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
-        <Text className="text-center font-bold text-5xl pb-6">Power Hour Timer</Text>
+        <Text className="text-center font-bold text-5xl pb-6">Centurion Timer</Text>
 
         <CountdownCircleTimer
           isPlaying
-          duration={3660}
+          duration={6000}
           size={250}
           isGrowing={true}
           strokeWidth={20}
@@ -127,7 +127,7 @@ const TimerScreen = ({ navigation }) => {
           onComplete={() => {
             playSound();
             setRound(round + 1);
-            if (round === 59) {
+            if (round === 99) {
               return { shouldRepeat: false }
             };
             return { shouldRepeat: true, delay: 1 }
@@ -141,4 +141,4 @@ const TimerScreen = ({ navigation }) => {
   )
 }
 
-export default TimerScreen
+export default TimerTwoScreen

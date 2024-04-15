@@ -80,6 +80,10 @@ const HomeScreen = ({ navigation }) => {
               <Text className="text-center font-bold text-xl">Power Hour</Text>
             </TouchableOpacity>
 
+            <TouchableOpacity onPress={() => navigation.navigate("TimerTwo")} className="w-64 h-16 justify-center rounded-lg bg-white">
+              <Text className="text-center font-bold text-xl">Centurion Challenge</Text>
+            </TouchableOpacity>
+
           </View>
 
         </View>
