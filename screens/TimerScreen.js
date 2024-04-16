@@ -14,6 +14,8 @@ const TimerScreen = ({ navigation }) => {
   const [loading, setLoading] = useState(true);
   const [sound, setSound] = useState();
   const [round, setRound] = useState(0);
+  const [start, setStart] = useState(false);
+
 
   let bgColor = 'bg-white';
   let textColor = '';
@@ -94,17 +96,37 @@ const TimerScreen = ({ navigation }) => {
     );
   };
 
+  const mode = ({ modeSelected }) => {
+
+  }
+
   return (
 
     <SafeAreaView className="bg-neutral-100" style={styles.AndroidSafeArea}>
-      <ScrollView>
+      <View className="items-center py-20 h-screen justify-center position-fixed">
+        <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
+        
+        <Text className="text-center font-bold text-3xl pb-6">Select your mode:</Text>
 
-      <View className="items-center py-20 h-screen">
+        <View className="space-y-3 p-8">
+          <TouchableOpacity className="w-64 h-16 justify-center rounded-lg bg-white">
+            <Text className="text-center font-bold text-2xl">Power Hour</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity className="w-64 h-16 justify-center rounded-lg bg-white">
+            <Text className="text-center font-bold text-2xl">Centurion Challenge</Text>
+          </TouchableOpacity>
+        </View>
+
+      </View>
+
+
+      <View className="items-center py-20 h-screen position-fixed">
         <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
         <Text className="text-center font-bold text-5xl pb-6">Power Hour Timer</Text>
 
         <CountdownCircleTimer
-          isPlaying
+          isPlaying={start}
           duration={3660}
           size={250}
           isGrowing={true}
@@ -118,7 +140,7 @@ const TimerScreen = ({ navigation }) => {
         </CountdownCircleTimer>
         <Text className="text-center font-bold font-xl"> {"\n"} </Text>
         <CountdownCircleTimer
-          isPlaying
+          isPlaying={start}
           duration={60}
           size={250}
           strokeWidth={20}
@@ -136,7 +158,6 @@ const TimerScreen = ({ navigation }) => {
           {renderTime}
         </CountdownCircleTimer>
       </View>
-      </ScrollView>
     </SafeAreaView>
   )
 }
