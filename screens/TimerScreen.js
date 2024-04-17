@@ -14,6 +14,10 @@ const TimerScreen = ({ navigation }) => {
   const [loading, setLoading] = useState(true);
   const [sound, setSound] = useState();
   const [round, setRound] = useState(0);
+  const [start, setStart] = useState(false);
+  const [isVisible, setVisible] = useState();
+  const [time, setTime] = useState(0);
+  const [mode, setMode] = useState(0);
 
   let bgColor = 'bg-white';
   let textColor = '';
@@ -67,6 +71,22 @@ const TimerScreen = ({ navigation }) => {
     return;
   }
 
+  const handlePH = () => {
+    setTime(3660)
+    setMode(59)
+    setStart(true)
+    setVisible('hidden')
+    return;
+  }
+
+  const handleCC = () => {
+    setTime(6060)
+    setMode(89)
+    setStart(true)
+    setVisible('hidden')
+    return;
+  }
+
   const renderTime = ({ remainingTime }) => {
     if (remainingTime === 0) {
       return <Text className="text-center font-bold text-5xl">Drink!</Text>;
@@ -97,28 +117,45 @@ const TimerScreen = ({ navigation }) => {
   return (
 
     <SafeAreaView className="bg-neutral-100" style={styles.AndroidSafeArea}>
-      <ScrollView>
+      <View className={isVisible}>
+        <View className="items-center py-20 h-screen justify-center position-fixed">
+        <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
+        
+        <Text className="text-center font-bold text-3xl pb-6">Select your mode:</Text>
 
-      <View className="items-center py-20 h-screen">
+        <View className="space-y-3 p-8">
+          <TouchableOpacity onPress={handlePH} className="w-64 h-16 justify-center rounded-lg bg-white">
+            <Text className="text-center font-bold text-2xl">Power Hour</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity onPress={handleCC} className="w-64 h-16 justify-center rounded-lg bg-white">
+            <Text className="text-center font-bold text-2xl">Centurion Challenge</Text>
+          </TouchableOpacity>
+          </View>
+        </View>
+      </View>
+
+
+      <View className="items-center py-20 h-screen position-fixed">
         <AntDesign onPress={handleBack} style={styles.backB} name="leftcircle" size={45} color="black" />
         <Text className="text-center font-bold text-5xl pb-6">Power Hour Timer</Text>
 
         <CountdownCircleTimer
-          isPlaying
-          duration={3660}
+          isPlaying={start}
+          duration={time}
           size={250}
           isGrowing={true}
           strokeWidth={20}
           rotation={'counterclockwise'}
           colors={['#66bb6a', '#ffea00', '#ffa726', '#ef5350']}
-          colorsTime={[3600, 2700, 1200, 300]}
+          colorsTime={[6039, 4455, 728, 496]}
           onComplete={() => [false, 1000]}
         >
           {renderTime2}
         </CountdownCircleTimer>
         <Text className="text-center font-bold font-xl"> {"\n"} </Text>
         <CountdownCircleTimer
-          isPlaying
+          isPlaying={start}
           duration={60}
           size={250}
           strokeWidth={20}
@@ -127,7 +164,7 @@ const TimerScreen = ({ navigation }) => {
           onComplete={() => {
             playSound();
             setRound(round + 1);
-            if (round === 59) {
+            if (round === mode) {
               return { shouldRepeat: false }
             };
             return { shouldRepeat: true, delay: 1 }
@@ -136,7 +173,6 @@ const TimerScreen = ({ navigation }) => {
           {renderTime}
         </CountdownCircleTimer>
       </View>
-      </ScrollView>
     </SafeAreaView>
   )
 }
