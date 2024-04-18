@@ -81,7 +81,7 @@ const TimerScreen = ({ navigation }) => {
 
   const handleCC = () => {
     setTime(6060)
-    setMode(89)
+    setMode(99)
     setStart(true)
     setVisible('hidden')
     return;
